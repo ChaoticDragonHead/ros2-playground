@@ -31,5 +31,15 @@
     </inertial>
 </xacro:macro>
 
+<xacro:macro name="cone_inertia" params="m r o_xyz o_rpy">
+    <inertial>
+        <mass value="${m}" />
+        <origin xyz="${o_xyz}" rpy="${o_rpy}" />
+        <inertia ixx="${(3/10 * m * r * r)}" ixy="0" ixz="0"
+                iyy="${3/10 * m * r * r}" iyz="0"
+                izz="${3/10 * m * r * r}" />
+    </inertial>
+</xacro:macro>
+
 
 </robot>
