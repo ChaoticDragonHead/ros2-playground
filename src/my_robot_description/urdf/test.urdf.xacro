@@ -16,7 +16,7 @@
     <xacro:property name="wheel_length" value="0.05" />
 
     <xacro:property name="pusher_arm_radius" value="0.025" />
-    <xacro:property name="pusher_arm_length" value="0.2" />
+    <xacro:property name="pusher_arm_length" value="0.4" />
     <xacro:property name="pusher_length" value="0.1" />
     <xacro:property name="pusher_width" value="0.3" />
     <xacro:property name="pusher_height" value="0.1" />
@@ -146,7 +146,7 @@
         <xacro:cylinder_inertia m="3.0" r="${pusher_arm_radius}" l="${pusher_arm_length}" o_xyz="0 0 0" o_rpy="0 0 0" />
     </link>
 
-    <link name="pusher_link">
+    <link name="left_pusher_link">
         <visual>
             <geometry>
                 <box size="${pusher_length} ${pusher_width} ${pusher_height}" />
@@ -164,17 +164,24 @@
         <xacro:box_inertia m="2.0" x="${pusher_length}" y="${pusher_width}" z="${pusher_height}" o_xyz="0 0 ${pusher_height/2}" o_rpy="0 0 0" />
     </link>
 
-    <joint name="pusher_pusher_arm_joint" type="fixed">
-        <parent link="pusher_arm_link" />
-        <child link="pusher_link" />
-        <origin xyz="0 0 ${-pusher_arm_length}" rpy="0 0 0" />
-    </joint>
+    <link name="right_pusher_link">
+        <visual>
+            <geometry>
+                <box size="${pusher_length} ${pusher_width} ${pusher_height}" />
+            </geometry>
+            <origin xyz="0 0 ${pusher_height/2}" rpy="0 0 0" />
+            <material name="grey" />
+        </visual>
 
-    <joint name="arm_base_link" type="fixed">
-        <parent link="base_link" />
-        <child link="pusher_arm_link" />
-        <origin xyz="${pusher_width/2} ${base_width/2 + pusher_arm_radius*2} ${pusher_arm_length/2 + pusher_height}" rpy="0 0 1.571" />
-    </joint>
+        <collision>
+            <geometry>
+                <box size="${pusher_length} ${pusher_width} ${pusher_height}" />
+            </geometry>
+            <origin xyz="0 0 ${pusher_height/2}" rpy="0 0 0" />
+        </collision>
+        <xacro:box_inertia m="2.0" x="${pusher_length}" y="${pusher_width}" z="${pusher_height}" o_xyz="0 0 ${pusher_height/2}" o_rpy="0 0 0" />
+    </link>
+
 
     <!--Joints here-->
     <!--Joints attach links to each other. DIfferent joint types cause different behaviours. I.E "fixed" disallows movement, would be like welding. COntinuous allows rotation forever. So on.-->
@@ -218,4 +225,24 @@
         <child link="arm1_link" />
         <origin xyz="${base_length/2} ${base_width/2 + pusher_arm_radius} 0" rpy="0 0 0" />
     </joint>-->
+
+    <joint name="left_pusher_pusher_arm_joint" type="fixed">
+        <parent link="pusher_arm_link" />
+        <child link="left_pusher_link" />
+        <origin xyz="0 0 ${-pusher_arm_length+pusher_height}" rpy="0 0 0" />
+    </joint>
+
+    <joint name="right_pusher_pusher_arm_joint" type="fixed">
+        <parent link="pusher_arm_link" />
+        <child link="right_pusher_link" />
+        <origin xyz="0 0 ${pusher_arm_length-pusher_height*2}" rpy="0 0 0" />
+    </joint>
+
+    <joint name="arm_base_link" type="prismatic">
+        <parent link="base_link" />
+        <child link="pusher_arm_link" />
+        <origin xyz="0 0 ${pusher_length/2 + base_height}" rpy="0 -1.571 1.571" />
+        <axis xyz="0 0 1" />
+        <limit lower="${-pusher_arm_length}" upper="${pusher_arm_length}" effort="20" velocity="0.5" />
+    </joint>
 </robot>
