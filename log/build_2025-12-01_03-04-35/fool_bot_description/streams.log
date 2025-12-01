@@ -1,0 +1,30 @@
+[0.013s] Invoking command in '/home/jo-jo/ros2_ws/build/fool_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jo-jo/ros2_ws/src/fool_bot/fool_bot_description -DCMAKE_INSTALL_PREFIX=/home/jo-jo/ros2_ws/install/fool_bot_description
+[0.065s] -- The C compiler identification is GNU 13.3.0
+[0.120s] -- The CXX compiler identification is GNU 13.3.0
+[0.136s] -- Detecting C compiler ABI info
+[0.223s] -- Detecting C compiler ABI info - done
+[0.231s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.231s] -- Detecting C compile features
+[0.231s] -- Detecting C compile features - done
+[0.241s] -- Detecting CXX compiler ABI info
+[0.339s] -- Detecting CXX compiler ABI info - done
+[0.346s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.346s] -- Detecting CXX compile features
+[0.347s] -- Detecting CXX compile features - done
+[0.351s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.494s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.677s] -- Configuring done (0.7s)
+[0.680s] -- Generating done (0.0s)
+[0.681s] -- Build files have been written to: /home/jo-jo/ros2_ws/build/fool_bot_description
+[0.686s] Invoked command in '/home/jo-jo/ros2_ws/build/fool_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jo-jo/ros2_ws/src/fool_bot/fool_bot_description -DCMAKE_INSTALL_PREFIX=/home/jo-jo/ros2_ws/install/fool_bot_description
+[0.687s] Invoking command in '/home/jo-jo/ros2_ws/build/fool_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jo-jo/ros2_ws/build/fool_bot_description -- -j16 -l16
+[0.727s] Invoked command in '/home/jo-jo/ros2_ws/build/fool_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jo-jo/ros2_ws/build/fool_bot_description -- -j16 -l16
+[0.728s] Invoking command in '/home/jo-jo/ros2_ws/build/fool_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jo-jo/ros2_ws/build/fool_bot_description
+[0.736s] -- Install configuration: ""
+[0.736s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.736s]   file INSTALL cannot find
+[0.737s]   "/home/jo-jo/ros2_ws/src/fool_bot/fool_bot_description/urdf": No such file
+[0.737s]   or directory.
+[0.737s] 
+[0.737s] [0m
+[0.738s] Invoked command in '/home/jo-jo/ros2_ws/build/fool_bot_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jo-jo/ros2_ws/build/fool_bot_description

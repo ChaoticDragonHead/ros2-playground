@@ -1,0 +1,18 @@
+[0.010s] Invoking command in '/home/jo-jo/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jo-jo/ros2_ws/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/jo-jo/ros2_ws/install/my_robot_description
+[0.137s] -- The C compiler identification is GNU 13.3.0
+[0.242s] -- The CXX compiler identification is GNU 13.3.0
+[0.262s] -- Detecting C compiler ABI info
+[0.352s] -- Detecting C compiler ABI info - done
+[0.359s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.360s] -- Detecting C compile features
+[0.361s] -- Detecting C compile features - done
+[0.371s] -- Detecting CXX compiler ABI info
+[0.467s] -- Detecting CXX compiler ABI info - done
+[0.474s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.474s] -- Detecting CXX compile features
+[0.474s] -- Detecting CXX compile features - done
+[0.487s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.628s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.835s] -- Configuring done (0.8s)
+[0.838s] -- Generating done (0.0s)
+[0.840s] -- Build files have been written to: /home/jo-jo/ros2_ws/build/my_robot_description
