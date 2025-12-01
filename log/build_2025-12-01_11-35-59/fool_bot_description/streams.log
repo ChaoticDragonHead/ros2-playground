@@ -1,0 +1,15 @@
+[0.008s] Invoking command in '/home/jo-jo/ros2_ws/build/fool_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jo-jo/ros2_ws/build/fool_bot_description -- -j28 -l28
+[0.034s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.220s] -- Configuring done (0.2s)
+[0.221s] -- Generating done (0.0s)
+[0.221s] -- Build files have been written to: /home/jo-jo/ros2_ws/build/fool_bot_description
+[0.238s] Invoked command in '/home/jo-jo/ros2_ws/build/fool_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jo-jo/ros2_ws/build/fool_bot_description -- -j28 -l28
+[0.239s] Invoking command in '/home/jo-jo/ros2_ws/build/fool_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jo-jo/ros2_ws/build/fool_bot_description
+[0.242s] -- Install configuration: ""
+[0.243s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.243s]   file INSTALL cannot find
+[0.243s]   "/home/jo-jo/ros2_ws/src/fool_bot/fool_bot_description/urdf": No such file
+[0.243s]   or directory.
+[0.243s] 
+[0.243s] [0m
+[0.257s] Invoked command in '/home/jo-jo/ros2_ws/build/fool_bot_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jo-jo/ros2_ws/build/fool_bot_description

@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/jo-jo/ros2_ws/src/fool_bot/fool_bot_description/urdf": No such file
+  or directory.
+
+[0m

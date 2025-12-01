@@ -1,24 +1,3 @@
-<?xml version="1.0" ?>
-<sdf version="1.6">
-  <model name="gazebo">
-    <static>true</static>
-    <link name="link">
-      <collision name="collision">
-        <geometry>
-          <mesh>
-            <scale>3 3 2.5</scale>
-            <uri>meshes/gazebo.dae</uri>
-          </mesh>
-        </geometry>
-      </collision>
-      <visual name="visual">
-        <geometry>
-          <mesh>
-            <scale>3 3 2.5</scale>
-            <uri>meshes/gazebo.dae</uri>
-          </mesh>
-        </geometry>
-      </visual>
-    </link>
-  </model>
-</sdf>
+version https://git-lfs.github.com/spec/v1
+oid sha256:80e1341a2f83c8195d6fc45f3b4b4023b026e322e289720042f4b4472b589b2b
+size 545

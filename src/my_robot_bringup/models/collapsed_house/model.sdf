@@ -1,24 +1,3 @@
-<?xml version="1.0" ?>
-<sdf version="1.6">
-  <model name="collapsed_house">
-    <static>true</static>
-    <link name="link">
-      <collision name="collision">
-        <geometry>
-          <mesh>
-            <scale>1.5 1.5 1.5</scale>
-            <uri>meshes/collapsed_house.dae</uri>
-          </mesh>
-        </geometry>
-      </collision>
-      <visual name="visual">
-        <geometry>
-          <mesh>
-            <scale>1.5 1.5 1.5</scale>
-            <uri>meshes/collapsed_house.dae</uri>
-          </mesh>
-        </geometry>
-      </visual>
-    </link>
-  </model>
-</sdf>
+version https://git-lfs.github.com/spec/v1
+oid sha256:206ee647f091ad5f5ca143ec45a4ff8f3b83a3dd4670c9ba8528380e98734a47
+size 580

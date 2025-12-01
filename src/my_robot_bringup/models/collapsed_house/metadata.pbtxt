@@ -1,18 +1,3 @@
-model {
-  file: "model.sdf"
-  file_format {
-    version {
-      major: 1
-      minor: 6
-    }
-    name: "sdf"
-  }
-}
-name: "Collapsed House"
-description: "A collapsed house."
-version: 1
-authors {
-  name: "Nate Koenig"
-  email: "nate@osrfoundation.org"
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:89ca1ea4699fc7670405ac7001e479dd9514146e64779ea1c8b4824bdb038438
+size 254
