@@ -6,6 +6,9 @@
 /home/jo-jo/ros2_ws/install/my_robot_description/share/my_robot_description//urdf/my_robot.urdf.xacro
 /home/jo-jo/ros2_ws/install/my_robot_description/share/my_robot_description//urdf/common_properties.xacro
 /home/jo-jo/ros2_ws/install/my_robot_description/share/my_robot_description//launch/display.launch.xml
+/home/jo-jo/ros2_ws/install/my_robot_description/share/my_robot_description//meshes/cone(blender).blend
+/home/jo-jo/ros2_ws/install/my_robot_description/share/my_robot_description//meshes/cone(blender).blend1
+/home/jo-jo/ros2_ws/install/my_robot_description/share/my_robot_description//meshes/cone(blender).stl
 /home/jo-jo/ros2_ws/install/my_robot_description/share/my_robot_description//rviz/urdf_config.rviz
 /home/jo-jo/ros2_ws/install/my_robot_description/share/my_robot_description//rviz/urdf_config1.rviz
 /home/jo-jo/ros2_ws/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
