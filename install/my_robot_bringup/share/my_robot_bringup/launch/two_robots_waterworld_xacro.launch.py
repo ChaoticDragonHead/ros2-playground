@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-version https://git-lfs.github.com/spec/v1
-oid sha256:f50bfd997a2acefcfb372effbab38fefe21cdfa0119e58a0bf537f21630cda47
-size 6040
-=======
 # ~/ros2_ws/src/my_robot_bringup/launch/two_robots_waterworld_xacro.launch.py
 
 from launch import LaunchDescription
@@ -173,4 +168,3 @@ def generate_launch_description() -> LaunchDescription:
         bridge,
         rviz,
     ])
->>>>>>> cdd7b1a6fb9214c7854cc03ecd2957cf1c069b70
