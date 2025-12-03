@@ -13,7 +13,7 @@
     <!-- Shared paths -->
     <let name="gazebo_config_path" value="$(find-pkg-share my_robot_bringup)/config/gazebo_bridge.yaml" />
     <let name="rviz_config_path" value="$(find-pkg-share my_robot_description)/rviz/urdf_config.rviz" />
-    <let name="world_path" value="$(find-pkg-share my_robot_bringup)/worlds/simple_test.sdf" />
+    <let name="world_path" value="$(find-pkg-share my_robot_bringup)/worlds/waterworld.sdf" />
 
     <!-- ==================================
          Robot State Publishers for both robots
