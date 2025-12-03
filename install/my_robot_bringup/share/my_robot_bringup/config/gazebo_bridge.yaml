@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-version https://git-lfs.github.com/spec/v1
-oid sha256:48a6a753fab6f713e542d6044250cf9f43736687c88e518d83c3d4b498d4f80e
-size 677
-=======
 # ~/ros2_ws/src/my_robot_bringup/config/gazebo_bridge.yaml
 
 # Sim time
@@ -55,4 +50,3 @@ size 677
   ros_type_name: "geometry_msgs/msg/Twist"
   gz_type_name: "gz.msgs.Twist"
   direction: ROS_TO_GZ
->>>>>>> cdd7b1a6fb9214c7854cc03ecd2957cf1c069b70

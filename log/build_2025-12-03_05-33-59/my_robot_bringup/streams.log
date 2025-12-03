@@ -1,0 +1,1433 @@
+[0.009s] Invoking command in '/home/jo-jo/ros2_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jo-jo/ros2_ws/build/my_robot_bringup -- -j28 -l28
+[0.119s] Invoked command in '/home/jo-jo/ros2_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jo-jo/ros2_ws/build/my_robot_bringup -- -j28 -l28
+[0.120s] Invoking command in '/home/jo-jo/ros2_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jo-jo/ros2_ws/build/my_robot_bringup
+[0.127s] -- Install configuration: ""
+[0.127s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//launch
+[0.128s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//launch/two_robots_waterworld_ns.launch.xml
+[0.128s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//launch/my_robot_gazebo.launch.xml
+[0.128s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//launch/two_robots_waterworld_xacro.launch.py
+[0.128s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//launch/test_gazebo.launch.xml
+[0.128s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//launch/emiliobot_gazebo.launch.xml
+[0.128s] -- Installing: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//launch/my_robot_gazebo_simple_test.launch.xml
+[0.129s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//config
+[0.129s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//config/gazebo_bridge.yaml
+[0.129s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//worlds
+[0.129s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//worlds/eddie_world.sdf
+[0.129s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//worlds/waterworld_easy.sdf
+[0.129s] -- Installing: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//worlds/simple_test.sdf
+[0.129s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//worlds/waterworld.sdf
+[0.129s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//worlds/potatoland.sdf
+[0.129s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models
+[0.129s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/NASA_PRESERVERANCE_SENSOR_CONFIG_1
+[0.129s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/NASA_PRESERVERANCE_SENSOR_CONFIG_1/resources
+[0.129s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/NASA_PRESERVERANCE_SENSOR_CONFIG_1/resources/mars_2020_07_BLACKOUT.jpg
+[0.129s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/NASA_PRESERVERANCE_SENSOR_CONFIG_1/resources/nameplate.jpg
+[0.129s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/NASA_PRESERVERANCE_SENSOR_CONFIG_1/resources/mars_2020_01.jpg
+[0.129s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/NASA_PRESERVERANCE_SENSOR_CONFIG_1/resources/mars_2020_02.jpg
+[0.129s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/NASA_PRESERVERANCE_SENSOR_CONFIG_1/resources/perseverance.dae
+[0.129s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/NASA_PRESERVERANCE_SENSOR_CONFIG_1/resources/blade.jpg
+[0.129s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/NASA_PRESERVERANCE_SENSOR_CONFIG_1/resources/glass.png
+[0.129s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/NASA_PRESERVERANCE_SENSOR_CONFIG_1/resources/mars_2020_04.jpg
+[0.129s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/NASA_PRESERVERANCE_SENSOR_CONFIG_1/resources/mars_2020_05.jpg
+[0.129s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/NASA_PRESERVERANCE_SENSOR_CONFIG_1/resources/arm_graphics.jpg
+[0.129s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/NASA_PRESERVERANCE_SENSOR_CONFIG_1/resources/clear.png
+[0.129s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/NASA_PRESERVERANCE_SENSOR_CONFIG_1/resources/cvoidPlaque.jpg
+[0.130s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/NASA_PRESERVERANCE_SENSOR_CONFIG_1/resources/sample_handling_door.jpg
+[0.130s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/NASA_PRESERVERANCE_SENSOR_CONFIG_1/resources/mars_2020_06.jpg
+[0.130s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/NASA_PRESERVERANCE_SENSOR_CONFIG_1/resources/mars_2020_hub.jpg
+[0.130s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/NASA_PRESERVERANCE_SENSOR_CONFIG_1/resources/mars_2020_03.jpg
+[0.130s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/NASA_PRESERVERANCE_SENSOR_CONFIG_1/model.sdf
+[0.130s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/NASA_PRESERVERANCE_SENSOR_CONFIG_1/thumbnails
+[0.130s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/NASA_PRESERVERANCE_SENSOR_CONFIG_1/thumbnails/1.png
+[0.130s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/NASA_PRESERVERANCE_SENSOR_CONFIG_1/model.config
+[0.130s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Animal_Planet_Foam_2Headed_Dragon
+[0.130s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Animal_Planet_Foam_2Headed_Dragon/meshes
+[0.130s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Animal_Planet_Foam_2Headed_Dragon/meshes/model.obj
+[0.130s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Animal_Planet_Foam_2Headed_Dragon/meshes/model.mtl
+[0.130s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Animal_Planet_Foam_2Headed_Dragon/metadata.pbtxt
+[0.130s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Animal_Planet_Foam_2Headed_Dragon/model.sdf
+[0.130s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Animal_Planet_Foam_2Headed_Dragon/thumbnails
+[0.130s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Animal_Planet_Foam_2Headed_Dragon/thumbnails/0.jpg
+[0.130s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Animal_Planet_Foam_2Headed_Dragon/thumbnails/4.jpg
+[0.130s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Animal_Planet_Foam_2Headed_Dragon/thumbnails/1.jpg
+[0.130s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Animal_Planet_Foam_2Headed_Dragon/thumbnails/3.jpg
+[0.130s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Animal_Planet_Foam_2Headed_Dragon/thumbnails/2.jpg
+[0.130s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Animal_Planet_Foam_2Headed_Dragon/materials
+[0.130s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Animal_Planet_Foam_2Headed_Dragon/materials/textures
+[0.130s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Animal_Planet_Foam_2Headed_Dragon/materials/textures/dragon_texture.png
+[0.130s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Animal_Planet_Foam_2Headed_Dragon/model.config
+[0.130s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Reflective table
+[0.130s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Reflective table/meshes
+[0.130s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Reflective table/meshes/Table.dae
+[0.130s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Reflective table/model.sdf
+[0.131s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Reflective table/thumbnails
+[0.131s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Reflective table/thumbnails/0.png
+[0.131s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Reflective table/thumbnails/6.png
+[0.131s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Reflective table/thumbnails/5.png
+[0.131s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Reflective table/thumbnails/4.png
+[0.131s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Reflective table/thumbnails/1.png
+[0.131s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Reflective table/thumbnails/2.png
+[0.131s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Reflective table/thumbnails/3.png
+[0.131s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Reflective table/materials
+[0.131s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Reflective table/materials/textures
+[0.131s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Reflective table/materials/textures/Table_Roughness.png
+[0.131s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Reflective table/materials/textures/Table_Table_Normal.png
+[0.131s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Reflective table/materials/textures/DepotEnvMap.dds
+[0.131s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Reflective table/materials/textures/Table_Table_BaseColor.png
+[0.131s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Reflective table/model.config
+[0.131s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Potted Meat Can
+[0.131s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Potted Meat Can/textured.obj
+[0.131s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Potted Meat Can/textured.dae
+[0.131s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Potted Meat Can/model.sdf
+[0.131s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Potted Meat Can/thumbnails
+[0.131s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Potted Meat Can/thumbnails/5.png
+[0.131s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Potted Meat Can/thumbnails/4.png
+[0.131s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Potted Meat Can/thumbnails/1.png
+[0.131s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Potted Meat Can/thumbnails/2.png
+[0.131s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Potted Meat Can/thumbnails/3.png
+[0.131s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Potted Meat Can/texture_map.png
+[0.131s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Potted Meat Can/textured.mtl
+[0.131s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Potted Meat Can/model.config
+[0.131s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/coast_waves_2
+[0.131s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/coast_waves_2/meshes
+[0.131s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/coast_waves_2/meshes/waterlow.dae
+[0.131s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/coast_waves_2/model.sdf
+[0.131s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/coast_waves_2/thumbnails
+[0.131s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/coast_waves_2/thumbnails/1.png
+[0.132s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/coast_waves_2/materials
+[0.132s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/coast_waves_2/materials/programs
+[0.132s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/coast_waves_2/materials/programs/GerstnerWaves_vs_330.glsl
+[0.132s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/coast_waves_2/materials/programs/GerstnerWaves_fs_330.glsl
+[0.132s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/coast_waves_2/materials/programs/GerstnerWaves_vs.metal
+[0.132s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/coast_waves_2/materials/programs/GerstnerWaves_fs.metal
+[0.132s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/coast_waves_2/materials/textures
+[0.132s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/coast_waves_2/materials/textures/wave_normals.dds
+[0.132s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/coast_waves_2/materials/textures/skybox_lowres.dds
+[0.132s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/coast_waves_2/model.config
+[0.132s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/water
+[0.132s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/water/enclosure.sdf
+[0.132s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/water/model.config
+[0.132s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Falling Rock 3
+[0.132s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Falling Rock 3/meshes
+[0.132s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Falling Rock 3/meshes/FallingRock03_Collider.dae
+[0.132s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Falling Rock 3/meshes/FallingRock03.dae
+[0.132s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Falling Rock 3/model.sdf
+[0.132s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Falling Rock 3/thumbnails
+[0.132s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Falling Rock 3/thumbnails/4.jpg
+[0.132s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Falling Rock 3/thumbnails/1.jpg
+[0.132s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Falling Rock 3/thumbnails/5.jpg
+[0.132s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Falling Rock 3/thumbnails/3.jpg
+[0.132s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Falling Rock 3/thumbnails/2.jpg
+[0.132s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Falling Rock 3/materials
+[0.132s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Falling Rock 3/materials/textures
+[0.132s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Falling Rock 3/materials/textures/FallingRocks_Normal.jpg
+[0.132s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Falling Rock 3/materials/textures/FallingRocks_Roughness.jpg
+[0.132s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Falling Rock 3/materials/textures/FallingRocks_Albedo.jpg
+[0.133s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Falling Rock 3/materials/scripts
+[0.133s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Falling Rock 3/materials/scripts/model.material
+[0.133s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Falling Rock 3/model.config
+[0.133s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R32 Subway Car
+[0.133s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R32 Subway Car/meshes
+[0.133s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R32 Subway Car/meshes/r32.dae
+[0.133s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R32 Subway Car/metadata.pbtxt
+[0.133s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R32 Subway Car/model.sdf
+[0.133s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R32 Subway Car/thumbnails
+[0.133s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R32 Subway Car/thumbnails/4.png
+[0.133s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R32 Subway Car/thumbnails/1.png
+[0.133s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R32 Subway Car/thumbnails/2.png
+[0.133s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R32 Subway Car/thumbnails/3.png
+[0.133s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R32 Subway Car/materials
+[0.133s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R32 Subway Car/materials/textures
+[0.133s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R32 Subway Car/materials/textures/R32_Metalness.png
+[0.133s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R32 Subway Car/materials/textures/R32_Albedo.png
+[0.133s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R32 Subway Car/materials/textures/Undercarriage_Metalness.png
+[0.133s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R32 Subway Car/materials/textures/Undercarriage_Albedo.png
+[0.133s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R32 Subway Car/materials/textures/Undercarriage_Roughness.png
+[0.133s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R32 Subway Car/materials/textures/R32_Roughness.png
+[0.133s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R32 Subway Car/materials/scripts
+[0.133s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R32 Subway Car/materials/scripts/model.material
+[0.133s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R32 Subway Car/model.config
+[0.134s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Zebra
+[0.134s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Zebra/enclosure.sdf
+[0.134s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Zebra/model.config
+[0.134s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_industrial_building
+[0.134s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_industrial_building/meshes
+[0.134s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_industrial_building/meshes/collapsed_industrial.dae
+[0.134s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_industrial_building/model.sdf
+[0.134s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_industrial_building/thumbnails
+[0.134s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_industrial_building/thumbnails/5.png
+[0.134s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_industrial_building/thumbnails/4.png
+[0.134s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_industrial_building/thumbnails/1.png
+[0.134s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_industrial_building/thumbnails/2.png
+[0.134s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_industrial_building/thumbnails/3.png
+[0.134s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_industrial_building/materials
+[0.134s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_industrial_building/materials/textures
+[0.134s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_industrial_building/materials/textures/collapsed_industrial_diffuse.jpg
+[0.134s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_industrial_building/materials/textures/rough_concrete_spec.jpg
+[0.134s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_industrial_building/materials/textures/rubble_spec.jpg
+[0.134s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_industrial_building/materials/textures/rubble_diffuse.jpg
+[0.134s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_industrial_building/materials/textures/collapsed_industrial_spec.jpg
+[0.134s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_industrial_building/materials/textures/rough_concrete_diffuse.jpg
+[0.134s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_industrial_building/model.config
+[0.134s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Terrain
+[0.134s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Terrain/meshes
+[0.134s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Terrain/meshes/baylands_03.dae
+[0.134s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Terrain/model.sdf
+[0.134s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Terrain/thumbnails
+[0.135s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Terrain/thumbnails/baylands.jpg
+[0.135s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Terrain/materials
+[0.135s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Terrain/materials/textures
+[0.135s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Terrain/materials/textures/Concrete.png
+[0.135s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Terrain/materials/textures/Leaves.png
+[0.135s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Terrain/materials/textures/Sidewalk.png
+[0.135s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Terrain/materials/textures/MurkyWater.png
+[0.135s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Terrain/materials/textures/Asphalt.png
+[0.135s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Terrain/materials/textures/PicnicTable.png
+[0.135s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Terrain/materials/textures/Metal.png
+[0.135s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Terrain/materials/textures/Metal_Roof.png
+[0.135s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Terrain/materials/textures/Checker.png
+[0.135s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Terrain/materials/textures/Sand.png
+[0.135s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Terrain/materials/textures/Bark.png
+[0.135s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Terrain/materials/textures/ParkingLotMedian.png
+[0.135s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Terrain/materials/textures/ConcretePebbled.png
+[0.135s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Terrain/materials/textures/Tree_Concrete.png
+[0.135s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Terrain/materials/textures/ParkingMarkings.png
+[0.135s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Terrain/materials/textures/Branch.png
+[0.135s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Terrain/materials/textures/Rubber.png
+[0.135s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Terrain/materials/textures/DirtPath.png
+[0.135s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Terrain/materials/textures/Curb.png
+[0.135s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Terrain/materials/textures/Road.jpg
+[0.136s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Terrain/materials/textures/Curb_Red.png
+[0.136s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Terrain/materials/textures/Grass.png
+[0.136s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Terrain/materials/textures/ConcreteGround_02.png
+[0.136s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Terrain/materials/textures/ConcreteGround_01.png
+[0.136s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Terrain/materials/textures/RustyMetal.png
+[0.136s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Terrain/materials/scripts
+[0.136s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Terrain/materials/scripts/caster_vp.glsl
+[0.136s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Terrain/materials/scripts/caster_fp.glsl
+[0.136s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Terrain/materials/scripts/branch.material
+[0.136s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Terrain/model.config
+[0.136s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Sofa
+[0.136s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Sofa/meshes
+[0.136s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Sofa/meshes/Sofa.obj
+[0.136s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Sofa/meshes/SofaDiffuse.png
+[0.136s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Sofa/meshes/Sofa.mtl
+[0.136s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Sofa/model.sdf
+[0.136s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Sofa/thumbnails
+[0.136s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Sofa/thumbnails/5.png
+[0.136s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Sofa/thumbnails/4.png
+[0.136s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Sofa/thumbnails/1.png
+[0.136s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Sofa/thumbnails/2.png
+[0.136s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Sofa/thumbnails/3.png
+[0.136s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Sofa/model.config
+[0.136s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Vessel D
+[0.136s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Vessel D/meshes
+[0.136s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Vessel D/meshes/Boat04.dae
+[0.136s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Vessel D/model.sdf
+[0.136s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Vessel D/thumbnails
+[0.136s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Vessel D/thumbnails/1.png
+[0.136s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Vessel D/materials
+[0.136s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Vessel D/materials/textures
+[0.136s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Vessel D/materials/textures/Boat04_Normal.jpg
+[0.137s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Vessel D/materials/textures/Boat04_Albedo.jpg
+[0.137s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Vessel D/materials/textures/Boat04_Metalness.jpg
+[0.137s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Vessel D/materials/textures/Boat04_Roughness.jpg
+[0.137s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Vessel D/model.config
+[0.137s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot
+[0.137s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/meshes
+[0.137s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/meshes/Crates.dae
+[0.137s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/meshes/Depot.dae
+[0.137s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/model.sdf
+[0.137s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/thumbnails
+[0.137s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/thumbnails/0.png
+[0.137s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/thumbnails/5.png
+[0.137s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/thumbnails/4.png
+[0.137s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/thumbnails/1.png
+[0.137s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/thumbnails/2.png
+[0.137s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/thumbnails/3.png
+[0.137s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials
+[0.137s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures
+[0.137s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/WALLS_Roughness.png
+[0.137s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/FanBack_FanBack_BaseColor.png
+[0.137s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/PILLERS_Albedo.png
+[0.137s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/WALLS_Normal.png
+[0.137s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/FLOOR_Roughness.png
+[0.137s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/FLOOR_Normal.png
+[0.137s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/ROOF_Normal.png
+[0.137s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/WALLS_Metalness.png
+[0.137s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/STAIRS_Roughness.png
+[0.137s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/STAIRS_Albedo.png
+[0.137s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/Forklift_Forklift_BaseColor.png
+[0.137s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/BOXSET_Normal.png
+[0.137s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/ROOF_Emissive.png
+[0.137s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/Pipes_Albedo.png
+[0.137s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/PILLERS_Normal.png
+[0.137s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/INTERCOM_Roughness.png
+[0.137s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/Pipes_Normal.png
+[0.138s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/ROOF_Metalness.png
+[0.138s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/Forklift_Forklift_Metallic.png
+[0.138s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/FANS_Albedo.png
+[0.138s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/Pipes_Metalness.png
+[0.138s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/Crates_Crates_BaseColor.png
+[0.138s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/FLOOR_Metalness.png
+[0.138s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/Window_WINDOW_Roughness.png
+[0.138s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/INTERCOM_Metalness.png
+[0.138s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/Window_WINDOW_Metallic.png
+[0.138s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/INTERCOM_Albedo.png
+[0.138s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/FLOOR_Albedo.png
+[0.138s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/FANS_Normal.png
+[0.138s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/FireAlarmPole_Metalness.png
+[0.138s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/FireAlarm_Albedo.png
+[0.138s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/Crates_Crates_Normal.png
+[0.138s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/INTERCOM_Emissive.png
+[0.138s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/Window_WINDOW_BaseColor.png
+[0.138s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/DepotLightmap.png
+[0.138s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/ROOF_Albedo.png
+[0.138s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/INTERCOM_Normal.png
+[0.138s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/Forklift_Forklift_Normal.png
+[0.138s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/FireAlarmPole_Roughness.png
+[0.138s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/STAIRS_Normal.png
+[0.138s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/FireAlarmPole_Normal.png
+[0.138s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/FANS_Roughness.png
+[0.138s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/FireAlarmPole_Albedo.png
+[0.138s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/WALLS_Albedo.png
+[0.138s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/FireAlarm_Roughness.png
+[0.138s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/ROOF_Roughness.png
+[0.138s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/Pipes_Roughness.png
+[0.138s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/STAIRS_Metalness.png
+[0.138s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/Crates_Crates_Roughness.png
+[0.138s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/FireAlarm_Metalness.png
+[0.138s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/Forklift_Forklift_Roughness.png
+[0.138s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/BOXSET_Roughness.png
+[0.138s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/BOXSET_Emissive.png
+[0.139s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/FANS_Metalness.png
+[0.139s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/PILLERS_Metalness.png
+[0.139s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/BOXSET_Albedo.png
+[0.139s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/FireAlarm_Normal.png
+[0.139s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/PILLERS_Roughness.png
+[0.139s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/textures/BOXSET_Metalness.png
+[0.139s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/scripts
+[0.139s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/materials/scripts/model.material
+[0.139s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Depot/model.config
+[0.139s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cessna C-172
+[0.139s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cessna C-172/meshes
+[0.139s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cessna C-172/meshes/elevators.dae
+[0.139s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cessna C-172/meshes/body.dae
+[0.139s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cessna C-172/meshes/cessna_front_wheel.dae
+[0.139s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cessna C-172/meshes/left_aileron.dae
+[0.139s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cessna C-172/meshes/right_flap.dae
+[0.139s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cessna C-172/meshes/cessna_rear_left_wheel.dae
+[0.139s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cessna C-172/meshes/rudder.dae
+[0.139s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cessna C-172/meshes/right_aileron.dae
+[0.139s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cessna C-172/meshes/cessna_rear_right_wheel.dae
+[0.139s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cessna C-172/meshes/cessna_prop.dae
+[0.139s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cessna C-172/meshes/left_flap.dae
+[0.139s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cessna C-172/model.sdf
+[0.139s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cessna C-172/thumbnails
+[0.139s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cessna C-172/thumbnails/5.png
+[0.139s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cessna C-172/thumbnails/4.png
+[0.139s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cessna C-172/thumbnails/1.png
+[0.139s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cessna C-172/thumbnails/2.png
+[0.139s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cessna C-172/thumbnails/3.png
+[0.139s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cessna C-172/model.config
+[0.139s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/ground_station
+[0.139s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/ground_station/model.sdf
+[0.139s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/ground_station/thumbnails
+[0.139s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/ground_station/thumbnails/5.png
+[0.140s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/ground_station/thumbnails/4.png
+[0.140s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/ground_station/thumbnails/1.png
+[0.140s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/ground_station/thumbnails/2.png
+[0.140s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/ground_station/thumbnails/3.png
+[0.140s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/ground_station/model.config
+[0.140s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Fire_truck
+[0.140s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Fire_truck/meshes
+[0.140s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Fire_truck/meshes/fire_truck.obj
+[0.140s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Fire_truck/meshes/fire_truck.mtl
+[0.140s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Fire_truck/model.sdf
+[0.140s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Fire_truck/thumbnails
+[0.140s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Fire_truck/thumbnails/5.png
+[0.140s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Fire_truck/thumbnails/4.png
+[0.140s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Fire_truck/thumbnails/1.png
+[0.140s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Fire_truck/thumbnails/2.png
+[0.140s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Fire_truck/thumbnails/3.png
+[0.140s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Fire_truck/materials
+[0.140s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Fire_truck/materials/textures
+[0.140s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Fire_truck/materials/textures/fire_truck.png
+[0.140s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Fire_truck/model.config
+[0.140s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/CoffeeTable 1
+[0.140s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/CoffeeTable 1/meshes
+[0.140s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/CoffeeTable 1/meshes/CoffeeTable_Diffuse.png
+[0.140s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/CoffeeTable 1/meshes/CoffeeTable.mtl
+[0.140s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/CoffeeTable 1/meshes/CoffeeTable_SpecGloss.png
+[0.140s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/CoffeeTable 1/meshes/CoffeeTable_Normal.png
+[0.140s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/CoffeeTable 1/meshes/CoffeeTable.obj
+[0.140s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/CoffeeTable 1/model.sdf
+[0.140s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/CoffeeTable 1/thumbnails
+[0.140s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/CoffeeTable 1/thumbnails/5.png
+[0.140s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/CoffeeTable 1/thumbnails/4.png
+[0.140s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/CoffeeTable 1/thumbnails/1.png
+[0.140s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/CoffeeTable 1/thumbnails/2.png
+[0.140s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/CoffeeTable 1/thumbnails/3.png
+[0.140s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/CoffeeTable 1/model.config
+[0.140s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/AERONAVE
+[0.141s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/AERONAVE/meshes
+[0.141s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/AERONAVE/meshes/elevators.dae
+[0.141s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/AERONAVE/meshes/body.dae
+[0.141s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/AERONAVE/meshes/cessna_front_wheel.dae
+[0.141s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/AERONAVE/meshes/left_aileron.dae
+[0.141s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/AERONAVE/meshes/right_flap.dae
+[0.141s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/AERONAVE/meshes/cessna_rear_left_wheel.dae
+[0.141s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/AERONAVE/meshes/rudder.dae
+[0.141s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/AERONAVE/meshes/right_aileron.dae
+[0.141s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/AERONAVE/meshes/cessna_rear_right_wheel.dae
+[0.141s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/AERONAVE/meshes/cessna_prop.dae
+[0.141s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/AERONAVE/meshes/left_flap.dae
+[0.141s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/AERONAVE/model.sdf
+[0.141s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/AERONAVE/thumbnails
+[0.141s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/AERONAVE/thumbnails/5.png
+[0.141s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/AERONAVE/thumbnails/4.png
+[0.141s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/AERONAVE/thumbnails/1.png
+[0.141s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/AERONAVE/thumbnails/2.png
+[0.141s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/AERONAVE/thumbnails/3.png
+[0.141s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/AERONAVE/model.config
+[0.141s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Backpack (2)
+[0.141s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Backpack (2)/meshes
+[0.141s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Backpack (2)/meshes/Backpack.dae
+[0.141s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Backpack (2)/model.sdf
+[0.141s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Backpack (2)/thumbnails
+[0.141s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Backpack (2)/thumbnails/5.png
+[0.141s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Backpack (2)/thumbnails/4.png
+[0.141s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Backpack (2)/thumbnails/1.png
+[0.141s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Backpack (2)/thumbnails/2.png
+[0.141s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Backpack (2)/thumbnails/3.png
+[0.141s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Backpack (2)/materials
+[0.141s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Backpack (2)/materials/textures
+[0.141s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Backpack (2)/materials/textures/Backpack.png
+[0.141s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Backpack (2)/model.config
+[0.141s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Construction Cone Label Test
+[0.141s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Construction Cone Label Test/meshes
+[0.142s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Construction Cone Label Test/meshes/construction_cone.dae
+[0.142s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Construction Cone Label Test/model-1_3.sdf
+[0.142s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Construction Cone Label Test/model.sdf
+[0.142s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Construction Cone Label Test/model-1_4.sdf
+[0.142s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Construction Cone Label Test/thumbnails
+[0.142s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Construction Cone Label Test/thumbnails/5.png
+[0.142s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Construction Cone Label Test/thumbnails/4.png
+[0.142s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Construction Cone Label Test/thumbnails/1.png
+[0.142s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Construction Cone Label Test/thumbnails/2.png
+[0.142s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Construction Cone Label Test/thumbnails/3.png
+[0.142s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Construction Cone Label Test/materials
+[0.142s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Construction Cone Label Test/materials/textures
+[0.142s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Construction Cone Label Test/materials/textures/Construction_Cone_Diffuse.png
+[0.142s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Construction Cone Label Test/model.config
+[0.142s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/TriStar_Products_PPC_Power_Pressure_Cooker_XL_in_Black
+[0.142s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/TriStar_Products_PPC_Power_Pressure_Cooker_XL_in_Black/meshes
+[0.142s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/TriStar_Products_PPC_Power_Pressure_Cooker_XL_in_Black/meshes/model.obj
+[0.142s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/TriStar_Products_PPC_Power_Pressure_Cooker_XL_in_Black/meshes/model.mtl
+[0.142s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/TriStar_Products_PPC_Power_Pressure_Cooker_XL_in_Black/metadata.pbtxt
+[0.142s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/TriStar_Products_PPC_Power_Pressure_Cooker_XL_in_Black/model.sdf
+[0.142s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/TriStar_Products_PPC_Power_Pressure_Cooker_XL_in_Black/thumbnails
+[0.142s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/TriStar_Products_PPC_Power_Pressure_Cooker_XL_in_Black/thumbnails/0.jpg
+[0.142s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/TriStar_Products_PPC_Power_Pressure_Cooker_XL_in_Black/thumbnails/4.jpg
+[0.142s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/TriStar_Products_PPC_Power_Pressure_Cooker_XL_in_Black/thumbnails/1.jpg
+[0.142s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/TriStar_Products_PPC_Power_Pressure_Cooker_XL_in_Black/thumbnails/3.jpg
+[0.142s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/TriStar_Products_PPC_Power_Pressure_Cooker_XL_in_Black/thumbnails/2.jpg
+[0.142s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/TriStar_Products_PPC_Power_Pressure_Cooker_XL_in_Black/materials
+[0.142s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/TriStar_Products_PPC_Power_Pressure_Cooker_XL_in_Black/materials/textures
+[0.142s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/TriStar_Products_PPC_Power_Pressure_Cooker_XL_in_Black/materials/textures/texture.png
+[0.142s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/TriStar_Products_PPC_Power_Pressure_Cooker_XL_in_Black/model.config
+[0.142s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Fast Food
+[0.142s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Fast Food/meshes
+[0.142s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Fast Food/meshes/fast_food.dae
+[0.143s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Fast Food/model-1_3.sdf
+[0.143s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Fast Food/model.sdf
+[0.143s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Fast Food/model-1_4.sdf
+[0.143s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Fast Food/thumbnails
+[0.143s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Fast Food/thumbnails/5.png
+[0.143s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Fast Food/thumbnails/4.png
+[0.143s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Fast Food/thumbnails/1.png
+[0.143s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Fast Food/thumbnails/2.png
+[0.143s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Fast Food/thumbnails/3.png
+[0.143s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Fast Food/materials
+[0.143s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Fast Food/materials/textures
+[0.143s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Fast Food/materials/textures/FastFood_Spec.png
+[0.143s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Fast Food/materials/textures/FastFood_Diffuse.png
+[0.143s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Fast Food/materials/textures/FastFood_Normal.png
+[0.143s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Fast Food/materials/scripts
+[0.143s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Fast Food/materials/scripts/fast_food.material
+[0.143s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Fast Food/model.config
+[0.143s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Vessel_E
+[0.143s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Vessel_E/meshes
+[0.143s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Vessel_E/meshes/Boat05.dae
+[0.143s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Vessel_E/model.sdf
+[0.143s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Vessel_E/thumbnails
+[0.143s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Vessel_E/thumbnails/1.png
+[0.143s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Vessel_E/materials
+[0.143s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Vessel_E/materials/textures
+[0.143s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Vessel_E/materials/textures/Boat05_Albedo.jpg
+[0.143s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Vessel_E/materials/textures/Boat05_Normal.png
+[0.143s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Vessel_E/materials/textures/Boat05_Metalness.png
+[0.143s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Vessel_E/materials/textures/Boat05_Roughness.jpg
+[0.143s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Vessel_E/model.config
+[0.144s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Telephone pole
+[0.144s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Telephone pole/meshes
+[0.144s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Telephone pole/meshes/telephone_pole.dae
+[0.144s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Telephone pole/model.sdf
+[0.144s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Telephone pole/thumbnails
+[0.144s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Telephone pole/thumbnails/5.png
+[0.144s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Telephone pole/thumbnails/4.png
+[0.144s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Telephone pole/thumbnails/1.png
+[0.144s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Telephone pole/thumbnails/2.png
+[0.144s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Telephone pole/thumbnails/3.png
+[0.144s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Telephone pole/materials
+[0.144s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Telephone pole/materials/textures
+[0.144s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Telephone pole/materials/textures/telephone_pole_wood_spec.jpg
+[0.144s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Telephone pole/materials/textures/telephone_pole_metal_diffuse.jpg
+[0.144s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Telephone pole/materials/textures/telephone_pole_wood_diffuse.jpg
+[0.144s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Telephone pole/materials/textures/telephone_pole_metal_spec.jpg
+[0.144s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Telephone pole/model.config
+[0.144s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/textures
+[0.144s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/textures/grass_textures
+[0.144s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/textures/grass_textures/green_grass_circular.png
+[0.144s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/textures/grass_textures/green_grass_seamless.jpg
+[0.144s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/textures/misc_textures
+[0.144s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/textures/misc_textures/lava_2.jpeg
+[0.144s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/textures/misc_textures/lava_5.jpeg
+[0.144s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/textures/misc_textures/bright_green_leaves_small.jpg
+[0.144s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/textures/misc_textures/lava.jpeg
+[0.144s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/textures/misc_textures/lava_3.jpeg
+[0.144s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/textures/misc_textures/lava_4.jpeg
+[0.144s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/textures/wood_textures
+[0.144s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/textures/wood_textures/wood_texture_seamless_1x5.jpg
+[0.144s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/textures/wood_textures/custom_wood_texture.jpg
+[0.144s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/textures/wood_textures/wood_texture_seamless_1x10.jpg
+[0.144s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/textures/wood_textures/custom_wood_texture.png
+[0.144s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/textures/wood_textures/bark.jpeg
+[0.144s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/textures/wood_textures/wood_texture_seamless_1x2.jpg
+[0.144s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/textures/wood_textures/wood_texture_seamless_1x3.jpg
+[0.145s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/textures/wood_textures/wood_texture_seamless_1x1.jpg
+[0.145s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/textures/soil_textures
+[0.145s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/textures/soil_textures/soil_seamless_1.jpg
+[0.145s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/textures/soil_textures/dirt.jpeg
+[0.145s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/textures/stone_textures
+[0.145s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/textures/stone_textures/stone_wall_seamless_1x3.jpg
+[0.145s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/textures/stone_textures/stone_wall_seamless_1x2.jpg
+[0.145s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/textures/stone_textures/stone_wall_seamless_2x1.jpg
+[0.145s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/textures/stone_textures/stone_wall_seamless_4x1.jpg
+[0.145s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/textures/stone_textures/stone_wall_seamless_1x1.jpg
+[0.145s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Schleich_Bald_Eagle
+[0.145s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Schleich_Bald_Eagle/meshes
+[0.145s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Schleich_Bald_Eagle/meshes/model.obj
+[0.145s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Schleich_Bald_Eagle/meshes/model.mtl
+[0.145s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Schleich_Bald_Eagle/metadata.pbtxt
+[0.145s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Schleich_Bald_Eagle/model.sdf
+[0.145s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Schleich_Bald_Eagle/thumbnails
+[0.145s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Schleich_Bald_Eagle/thumbnails/0.jpg
+[0.145s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Schleich_Bald_Eagle/thumbnails/4.jpg
+[0.145s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Schleich_Bald_Eagle/thumbnails/1.jpg
+[0.145s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Schleich_Bald_Eagle/thumbnails/3.jpg
+[0.145s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Schleich_Bald_Eagle/thumbnails/2.jpg
+[0.145s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Schleich_Bald_Eagle/materials
+[0.145s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Schleich_Bald_Eagle/materials/textures
+[0.145s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Schleich_Bald_Eagle/materials/textures/eagle_texture.png
+[0.145s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Schleich_Bald_Eagle/model.config
+[0.145s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/toilet_paper
+[0.145s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/toilet_paper/model.sdf
+[0.145s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/toilet_paper/thumbnails
+[0.146s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/toilet_paper/thumbnails/1.png
+[0.146s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/toilet_paper/model.config
+[0.146s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Transformers_Age_of_Extinction_Stomp_and_Chomp_Grimlock_Figure
+[0.146s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Transformers_Age_of_Extinction_Stomp_and_Chomp_Grimlock_Figure/meshes
+[0.146s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Transformers_Age_of_Extinction_Stomp_and_Chomp_Grimlock_Figure/meshes/model.obj
+[0.146s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Transformers_Age_of_Extinction_Stomp_and_Chomp_Grimlock_Figure/meshes/model.mtl
+[0.146s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Transformers_Age_of_Extinction_Stomp_and_Chomp_Grimlock_Figure/metadata.pbtxt
+[0.146s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Transformers_Age_of_Extinction_Stomp_and_Chomp_Grimlock_Figure/model.sdf
+[0.146s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Transformers_Age_of_Extinction_Stomp_and_Chomp_Grimlock_Figure/thumbnails
+[0.146s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Transformers_Age_of_Extinction_Stomp_and_Chomp_Grimlock_Figure/thumbnails/0.jpg
+[0.146s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Transformers_Age_of_Extinction_Stomp_and_Chomp_Grimlock_Figure/thumbnails/4.jpg
+[0.146s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Transformers_Age_of_Extinction_Stomp_and_Chomp_Grimlock_Figure/thumbnails/1.jpg
+[0.146s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Transformers_Age_of_Extinction_Stomp_and_Chomp_Grimlock_Figure/thumbnails/3.jpg
+[0.146s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Transformers_Age_of_Extinction_Stomp_and_Chomp_Grimlock_Figure/thumbnails/2.jpg
+[0.146s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Transformers_Age_of_Extinction_Stomp_and_Chomp_Grimlock_Figure/materials
+[0.146s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Transformers_Age_of_Extinction_Stomp_and_Chomp_Grimlock_Figure/materials/textures
+[0.146s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Transformers_Age_of_Extinction_Stomp_and_Chomp_Grimlock_Figure/materials/textures/dinobot_texture.png
+[0.146s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Transformers_Age_of_Extinction_Stomp_and_Chomp_Grimlock_Figure/model.config
+[0.146s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Sunken Ship Distorted
+[0.146s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Sunken Ship Distorted/meshes
+[0.146s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Sunken Ship Distorted/meshes/sunkenship_distort.dae
+[0.146s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Sunken Ship Distorted/model.sdf
+[0.146s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Sunken Ship Distorted/thumbnails
+[0.146s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Sunken Ship Distorted/thumbnails/1.png
+[0.146s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Sunken Ship Distorted/thumbnails/2.png
+[0.146s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Sunken Ship Distorted/model.config
+[0.146s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cave
+[0.146s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cave/meshes
+[0.146s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cave/meshes/cave.dae
+[0.146s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cave/model.sdf
+[0.146s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cave/thumbnails
+[0.146s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cave/thumbnails/1.jpg
+[0.146s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cave/thumbnails/2.jpg
+[0.147s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cave/materials
+[0.147s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cave/materials/textures
+[0.147s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cave/materials/textures/Rocks_Normal.png
+[0.147s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cave/materials/textures/Stalagmite_Albedo.png
+[0.147s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cave/materials/textures/RockPile_Normal.png
+[0.147s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cave/materials/textures/Tower_Albedo.png
+[0.147s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cave/materials/textures/CaveWall_Albedo.png
+[0.147s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cave/materials/textures/CaveWall_Normal.png
+[0.147s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cave/materials/textures/Stalagmite_Normal.png
+[0.147s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cave/materials/textures/RockPile_Albedo.png
+[0.147s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cave/materials/textures/Rocks_Albedo.png
+[0.147s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cave/materials/textures/Tower_Normal.png
+[0.147s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cave/model.config
+[0.147s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/road_yellow_double
+[0.147s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/road_yellow_double/textures
+[0.147s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/road_yellow_double/textures/asphalt.jpeg
+[0.147s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/road_yellow_double/model.sdf
+[0.147s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/ClassCBed
+[0.147s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/ClassCBed/meshes
+[0.147s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/ClassCBed/meshes/Texture
+[0.147s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/ClassCBed/meshes/Texture/ClassCRoomBed_Albedo.png
+[0.147s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/ClassCBed/meshes/Texture/ClassCRoomBed_Roughness.png
+[0.147s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/ClassCBed/meshes/Texture/ClassCRoomBed_Metalness.png
+[0.147s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/ClassCBed/meshes/Texture/ClassCRoomBed_Normal.png
+[0.147s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/ClassCBed/meshes/ClassCBed.glb
+[0.147s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/ClassCBed/meshes/Mesh
+[0.147s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/ClassCBed/meshes/Mesh/ClassCBed.dae
+[0.147s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/ClassCBed/model.sdf
+[0.147s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/ClassCBed/thumbnails
+[0.147s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/ClassCBed/thumbnails/5.png
+[0.147s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/ClassCBed/thumbnails/4.png
+[0.147s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/ClassCBed/thumbnails/1.png
+[0.147s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/ClassCBed/thumbnails/2.png
+[0.148s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/ClassCBed/thumbnails/3.png
+[0.148s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/ClassCBed/model.config
+[0.148s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_fire_station
+[0.148s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_fire_station/meshes
+[0.148s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_fire_station/meshes/collapsed_fire_station.dae
+[0.148s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_fire_station/model.sdf
+[0.148s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_fire_station/thumbnails
+[0.148s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_fire_station/thumbnails/5.png
+[0.148s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_fire_station/thumbnails/4.png
+[0.148s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_fire_station/thumbnails/1.png
+[0.148s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_fire_station/thumbnails/2.png
+[0.148s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_fire_station/thumbnails/3.png
+[0.148s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_fire_station/materials
+[0.148s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_fire_station/materials/textures
+[0.148s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_fire_station/materials/textures/rubble_spec.jpg
+[0.148s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_fire_station/materials/textures/collapsed_firestation_spec.jpg
+[0.148s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_fire_station/materials/textures/collapsed_fire_station_diffuse.jpg
+[0.148s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_fire_station/materials/textures/rubble_diffuse.jpg
+[0.148s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_fire_station/model.config
+[0.148s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Chair
+[0.148s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Chair/meshes
+[0.148s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Chair/meshes/Chair.mtl
+[0.148s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Chair/meshes/Chair_Normal.png
+[0.148s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Chair/meshes/Chair.png
+[0.148s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Chair/meshes/Chair.obj
+[0.148s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Chair/meshes/Chair_Diffuse.png
+[0.148s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Chair/meshes/Chair_SpecGloss.png
+[0.148s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Chair/model.sdf
+[0.148s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Chair/thumbnails
+[0.148s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Chair/thumbnails/5.png
+[0.148s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Chair/thumbnails/4.png
+[0.148s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Chair/thumbnails/1.png
+[0.148s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Chair/thumbnails/2.png
+[0.148s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Chair/thumbnails/3.png
+[0.149s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Chair/model.config
+[0.149s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Lenovo_Yoga_2_11
+[0.149s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Lenovo_Yoga_2_11/meshes
+[0.149s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Lenovo_Yoga_2_11/meshes/model.obj
+[0.149s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Lenovo_Yoga_2_11/meshes/model.mtl
+[0.149s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Lenovo_Yoga_2_11/metadata.pbtxt
+[0.149s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Lenovo_Yoga_2_11/model.sdf
+[0.149s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Lenovo_Yoga_2_11/thumbnails
+[0.149s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Lenovo_Yoga_2_11/thumbnails/0.jpg
+[0.149s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Lenovo_Yoga_2_11/thumbnails/4.jpg
+[0.149s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Lenovo_Yoga_2_11/thumbnails/1.jpg
+[0.149s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Lenovo_Yoga_2_11/thumbnails/3.jpg
+[0.149s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Lenovo_Yoga_2_11/thumbnails/2.jpg
+[0.149s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Lenovo_Yoga_2_11/materials
+[0.149s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Lenovo_Yoga_2_11/materials/textures
+[0.149s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Lenovo_Yoga_2_11/materials/textures/texture.png
+[0.149s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Lenovo_Yoga_2_11/model.config
+[0.149s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/cone_blue
+[0.149s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/cone_blue/meshes
+[0.149s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/cone_blue/meshes/cone.stl
+[0.149s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/cone_blue/model.sdf
+[0.149s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/cone_blue/thumbnails
+[0.149s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/cone_blue/thumbnails/Screenshot from 2025-07-05 15-09-02.png
+[0.149s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/cone_blue/model.config
+[0.149s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/test
+[0.149s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/test/meshes
+[0.149s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/test/meshes/model.obj
+[0.149s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/test/meshes/model.mtl
+[0.150s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/test/metadata.pbtxt
+[0.150s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/test/model.sdf
+[0.150s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/test/thumbnails
+[0.150s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/test/thumbnails/0.jpg
+[0.150s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/test/thumbnails/4.jpg
+[0.150s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/test/thumbnails/1.jpg
+[0.150s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/test/thumbnails/3.jpg
+[0.150s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/test/thumbnails/2.jpg
+[0.150s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/test/materials
+[0.150s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/test/materials/textures
+[0.150s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/test/materials/textures/texture.png
+[0.150s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/test/model.config
+[0.150s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cracker Box
+[0.150s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cracker Box/textured.obj
+[0.150s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cracker Box/model.sdf
+[0.150s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cracker Box/thumbnails
+[0.151s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cracker Box/thumbnails/thumbnail3.png
+[0.151s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cracker Box/thumbnails/thumbnail1.png
+[0.151s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cracker Box/thumbnails/thumbnail4.png
+[0.151s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cracker Box/thumbnails/thumbnail5.png
+[0.151s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cracker Box/thumbnails/thumbnail2.png
+[0.151s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cracker Box/texture_map.png
+[0.151s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cracker Box/textured.mtl
+[0.151s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cracker Box/model.config
+[0.151s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Extinguisher cabinet
+[0.151s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Extinguisher cabinet/meshes
+[0.151s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Extinguisher cabinet/meshes/box.mtl
+[0.151s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Extinguisher cabinet/meshes/box.obj
+[0.151s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Extinguisher cabinet/meshes/texture.png
+[0.151s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Extinguisher cabinet/model.sdf
+[0.151s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Extinguisher cabinet/thumbnails
+[0.151s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Extinguisher cabinet/thumbnails/5.png
+[0.151s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Extinguisher cabinet/thumbnails/4.png
+[0.151s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Extinguisher cabinet/thumbnails/1.png
+[0.151s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Extinguisher cabinet/thumbnails/2.png
+[0.151s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Extinguisher cabinet/thumbnails/3.png
+[0.151s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Extinguisher cabinet/model.config
+[0.151s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_police_station
+[0.151s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_police_station/meshes
+[0.151s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_police_station/meshes/collapsed_police_station.dae
+[0.151s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_police_station/model.sdf
+[0.151s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_police_station/thumbnails
+[0.151s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_police_station/thumbnails/5.png
+[0.151s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_police_station/thumbnails/4.png
+[0.151s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_police_station/thumbnails/1.png
+[0.151s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_police_station/thumbnails/2.png
+[0.151s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_police_station/thumbnails/3.png
+[0.151s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_police_station/materials
+[0.152s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_police_station/materials/textures
+[0.152s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_police_station/materials/textures/collapsed_police_station_spec.jpg
+[0.152s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_police_station/materials/textures/rough_concrete_spec.jpg
+[0.152s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_police_station/materials/textures/rubble_spec.jpg
+[0.152s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_police_station/materials/textures/collapsed_police_station_diffuse.jpg
+[0.152s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_police_station/materials/textures/rubble_diffuse.jpg
+[0.152s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_police_station/materials/textures/rough_concrete_diffuse.jpg
+[0.152s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_police_station/model.config
+[0.152s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R160 Subway Car
+[0.152s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R160 Subway Car/meshes
+[0.152s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R160 Subway Car/meshes/r160.dae
+[0.152s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R160 Subway Car/metadata.pbtxt
+[0.152s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R160 Subway Car/model.sdf
+[0.152s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R160 Subway Car/thumbnails
+[0.152s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R160 Subway Car/thumbnails/4.png
+[0.152s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R160 Subway Car/thumbnails/1.png
+[0.152s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R160 Subway Car/thumbnails/2.png
+[0.152s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R160 Subway Car/thumbnails/3.png
+[0.152s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R160 Subway Car/materials
+[0.152s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R160 Subway Car/materials/textures
+[0.152s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R160 Subway Car/materials/textures/Body_Roughness.png
+[0.152s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R160 Subway Car/materials/textures/Interior_Albedo.png
+[0.152s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R160 Subway Car/materials/textures/Body_Emissive.png
+[0.152s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R160 Subway Car/materials/textures/Body_Metalness.png
+[0.152s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R160 Subway Car/materials/textures/Interior_Metalness.png
+[0.152s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R160 Subway Car/materials/textures/Body_Albedo.png
+[0.152s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R160 Subway Car/materials/textures/Interior_Emissive.png
+[0.152s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R160 Subway Car/materials/textures/Undercarriage_Metalness.png
+[0.152s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R160 Subway Car/materials/textures/Undercarriage_Albedo.png
+[0.152s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R160 Subway Car/materials/textures/Undercarriage_Roughness.png
+[0.152s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R160 Subway Car/materials/textures/Interior_Roughness.png
+[0.153s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R160 Subway Car/materials/scripts
+[0.153s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R160 Subway Car/materials/scripts/model.material
+[0.153s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/R160 Subway Car/model.config
+[0.153s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Standard VTOL
+[0.153s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Standard VTOL/meshes
+[0.153s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Standard VTOL/meshes/x8_elevon_left.dae
+[0.153s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Standard VTOL/meshes/iris_prop_ccw.dae
+[0.153s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Standard VTOL/meshes/iris_prop_cw.dae
+[0.153s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Standard VTOL/meshes/x8_wing.dae
+[0.153s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Standard VTOL/meshes/x8_elevon_right.dae
+[0.153s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Standard VTOL/model.sdf
+[0.153s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Standard VTOL/thumbnails
+[0.153s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Standard VTOL/thumbnails/standard_vtol.png
+[0.153s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Standard VTOL/model.config
+[0.153s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Hatchback red
+[0.153s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Hatchback red/meshes
+[0.153s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Hatchback red/meshes/hatchback.obj
+[0.153s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Hatchback red/meshes/hatchback.mtl
+[0.153s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Hatchback red/metadata.pbtxt
+[0.153s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Hatchback red/model.sdf
+[0.153s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Hatchback red/thumbnails
+[0.153s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Hatchback red/thumbnails/5.png
+[0.153s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Hatchback red/thumbnails/4.png
+[0.153s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Hatchback red/thumbnails/1.png
+[0.153s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Hatchback red/thumbnails/2.png
+[0.153s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Hatchback red/thumbnails/3.png
+[0.153s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Hatchback red/materials
+[0.153s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Hatchback red/materials/textures
+[0.153s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Hatchback red/materials/textures/hatchback.png
+[0.153s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Hatchback red/model.config
+[0.153s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/water_tower
+[0.154s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/water_tower/meshes
+[0.154s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/water_tower/meshes/water_tower.dae
+[0.154s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/water_tower/model.sdf
+[0.154s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/water_tower/thumbnails
+[0.154s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/water_tower/thumbnails/5.png
+[0.154s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/water_tower/thumbnails/4.png
+[0.154s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/water_tower/thumbnails/1.png
+[0.154s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/water_tower/thumbnails/2.png
+[0.154s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/water_tower/thumbnails/3.png
+[0.154s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/water_tower/materials
+[0.154s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/water_tower/materials/textures
+[0.154s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/water_tower/materials/textures/water_tower_diffuse.jpg
+[0.154s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/water_tower/materials/textures/water_tower_spec.jpg
+[0.154s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/water_tower/model.config
+[0.154s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Euro pallet
+[0.154s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Euro pallet/meshes
+[0.154s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Euro pallet/meshes/Bois_palette.jpg
+[0.154s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Euro pallet/meshes/euro_pallet.dae
+[0.154s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Euro pallet/model.sdf
+[0.154s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Euro pallet/thumbnails
+[0.154s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Euro pallet/thumbnails/1.png
+[0.154s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Euro pallet/thumbnails/2.png
+[0.154s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Euro pallet/model.config
+[0.154s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/delivery_artistic_picture
+[0.154s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/delivery_artistic_picture/meshes
+[0.154s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/delivery_artistic_picture/meshes/delivery_artistic_picture.png
+[0.154s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/delivery_artistic_picture/meshes/delivery_artistic_picture.dae
+[0.154s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/delivery_artistic_picture/model.sdf
+[0.154s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/delivery_artistic_picture/thumbnails
+[0.154s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/delivery_artistic_picture/thumbnails/1.png
+[0.154s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/delivery_artistic_picture/model.config
+[0.154s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Breakfast Menu Original
+[0.154s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Breakfast Menu Original/meshes
+[0.154s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Breakfast Menu Original/meshes/model.obj
+[0.154s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Breakfast Menu Original/meshes/model.mtl
+[0.155s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Breakfast Menu Original/model.sdf
+[0.155s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Breakfast Menu Original/thumbnails
+[0.155s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Breakfast Menu Original/thumbnails/0.jpg
+[0.155s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Breakfast Menu Original/thumbnails/4.jpg
+[0.155s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Breakfast Menu Original/thumbnails/1.jpg
+[0.155s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Breakfast Menu Original/thumbnails/3.jpg
+[0.155s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Breakfast Menu Original/thumbnails/2.jpg
+[0.155s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Breakfast Menu Original/materials
+[0.155s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Breakfast Menu Original/materials/textures
+[0.155s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Breakfast Menu Original/materials/textures/breakfast_menu_diffuse.png
+[0.155s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Breakfast Menu Original/model.config
+[0.155s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Weisshai_Great_White_Shark
+[0.155s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Weisshai_Great_White_Shark/meshes
+[0.155s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Weisshai_Great_White_Shark/meshes/model.obj
+[0.155s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Weisshai_Great_White_Shark/meshes/model.mtl
+[0.155s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Weisshai_Great_White_Shark/metadata.pbtxt
+[0.155s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Weisshai_Great_White_Shark/model.sdf
+[0.155s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Weisshai_Great_White_Shark/thumbnails
+[0.155s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Weisshai_Great_White_Shark/thumbnails/0.jpg
+[0.155s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Weisshai_Great_White_Shark/thumbnails/4.jpg
+[0.155s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Weisshai_Great_White_Shark/thumbnails/1.jpg
+[0.155s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Weisshai_Great_White_Shark/thumbnails/3.jpg
+[0.155s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Weisshai_Great_White_Shark/thumbnails/2.jpg
+[0.155s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Weisshai_Great_White_Shark/materials
+[0.155s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Weisshai_Great_White_Shark/materials/textures
+[0.155s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Weisshai_Great_White_Shark/materials/textures/shark_texture.png
+[0.155s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Weisshai_Great_White_Shark/model.config
+[0.155s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/lava(WIP, test, currently non-functional)
+[0.155s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/lava(WIP, test, currently non-functional)/meshes
+[0.155s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/lava(WIP, test, currently non-functional)/meshes/waterlow.dae
+[0.155s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/lava(WIP, test, currently non-functional)/meshes/lava.jpeg
+[0.156s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/lava(WIP, test, currently non-functional)/model.sdf
+[0.156s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/lava(WIP, test, currently non-functional)/thumbnails
+[0.156s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/lava(WIP, test, currently non-functional)/thumbnails/1.png
+[0.156s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/lava(WIP, test, currently non-functional)/materials
+[0.156s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/lava(WIP, test, currently non-functional)/materials/programs
+[0.156s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/lava(WIP, test, currently non-functional)/materials/programs/GerstnerWaves_vs_330.glsl
+[0.156s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/lava(WIP, test, currently non-functional)/materials/programs/GerstnerWaves_fs_330.glsl
+[0.156s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/lava(WIP, test, currently non-functional)/materials/programs/GerstnerWaves_vs.metal
+[0.156s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/lava(WIP, test, currently non-functional)/materials/programs/GerstnerWaves_fs.metal
+[0.156s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/lava(WIP, test, currently non-functional)/materials/textures
+[0.156s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/lava(WIP, test, currently non-functional)/materials/textures/wave_normals.dds
+[0.156s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/lava(WIP, test, currently non-functional)/materials/textures/skybox_lowres.dds
+[0.156s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/lava(WIP, test, currently non-functional)/model.config
+[0.156s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/cone_orange
+[0.156s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/cone_orange/meshes
+[0.156s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/cone_orange/meshes/cone.stl
+[0.156s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/cone_orange/model.sdf
+[0.156s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/cone_orange/thumbnails
+[0.156s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/cone_orange/thumbnails/Screenshot from 2025-07-05 15-15-27.png
+[0.156s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/cone_orange/model.config
+[0.156s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Pickup
+[0.156s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Pickup/meshes
+[0.156s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Pickup/meshes/pickup.dae
+[0.156s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Pickup/metadata.pbtxt
+[0.156s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Pickup/model.sdf
+[0.156s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Pickup/thumbnails
+[0.156s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Pickup/thumbnails/5.png
+[0.156s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Pickup/thumbnails/4.png
+[0.156s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Pickup/thumbnails/1.png
+[0.156s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Pickup/thumbnails/2.png
+[0.156s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Pickup/thumbnails/3.png
+[0.157s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Pickup/materials
+[0.157s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Pickup/materials/textures
+[0.157s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Pickup/materials/textures/pickup_diffuse.jpg
+[0.157s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Pickup/materials/textures/wheels2.jpg
+[0.157s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Pickup/model.config
+[0.157s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/WoodenChair
+[0.157s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/WoodenChair/meshes
+[0.157s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/WoodenChair/meshes/WoodenChair_Diffuse.png
+[0.157s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/WoodenChair/meshes/WoodenChair.obj
+[0.157s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/WoodenChair/meshes/WoodenChair_Col.mtl
+[0.157s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/WoodenChair/meshes/WoodenChair.mtl
+[0.157s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/WoodenChair/meshes/WoodenChair_Col.obj
+[0.157s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/WoodenChair/meshes/WoodenChair_Rough.png
+[0.157s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/WoodenChair/model.sdf
+[0.157s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/WoodenChair/thumbnails
+[0.157s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/WoodenChair/thumbnails/5.png
+[0.157s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/WoodenChair/thumbnails/4.png
+[0.157s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/WoodenChair/thumbnails/1.png
+[0.157s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/WoodenChair/thumbnails/2.png
+[0.157s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/WoodenChair/thumbnails/3.png
+[0.157s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/WoodenChair/model.config
+[0.157s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Salad_on_a_Plate
+[0.157s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Salad_on_a_Plate/meshes
+[0.157s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Salad_on_a_Plate/meshes/model.obj
+[0.157s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Salad_on_a_Plate/meshes/model.mtl
+[0.157s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Salad_on_a_Plate/metadata.pbtxt
+[0.157s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Salad_on_a_Plate/model.sdf
+[0.157s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Salad_on_a_Plate/thumbnails
+[0.157s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Salad_on_a_Plate/thumbnails/0.jpg
+[0.157s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Salad_on_a_Plate/thumbnails/4.jpg
+[0.157s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Salad_on_a_Plate/thumbnails/1.jpg
+[0.157s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Salad_on_a_Plate/thumbnails/3.jpg
+[0.157s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Salad_on_a_Plate/thumbnails/2.jpg
+[0.157s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Salad_on_a_Plate/materials
+[0.158s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Salad_on_a_Plate/materials/textures
+[0.158s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Salad_on_a_Plate/materials/textures/texture.png
+[0.158s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Salad_on_a_Plate/model.config
+[0.158s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Gas_Station
+[0.158s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Gas_Station/meshes
+[0.158s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Gas_Station/meshes/gas_station.dae
+[0.158s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Gas_Station/model-1_3.sdf
+[0.158s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Gas_Station/model.sdf
+[0.158s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Gas_Station/model-1_4.sdf
+[0.158s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Gas_Station/thumbnails
+[0.158s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Gas_Station/thumbnails/5.png
+[0.158s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Gas_Station/thumbnails/4.png
+[0.158s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Gas_Station/thumbnails/1.png
+[0.158s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Gas_Station/thumbnails/2.png
+[0.158s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Gas_Station/thumbnails/3.png
+[0.158s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Gas_Station/materials
+[0.158s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Gas_Station/materials/textures
+[0.158s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Gas_Station/materials/textures/GasStation_Normal.png
+[0.158s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Gas_Station/materials/textures/GasStation_Spec.png
+[0.158s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Gas_Station/materials/textures/GasStation_Diffuse.png
+[0.158s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Gas_Station/materials/scripts
+[0.158s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Gas_Station/materials/scripts/gas_station.material
+[0.158s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Gas_Station/model.config
+[0.158s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Radio tower
+[0.158s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Radio tower/meshes
+[0.158s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Radio tower/meshes/radio_tower.dae
+[0.158s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Radio tower/model.sdf
+[0.158s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Radio tower/thumbnails
+[0.158s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Radio tower/thumbnails/5.png
+[0.158s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Radio tower/thumbnails/4.png
+[0.159s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Radio tower/thumbnails/1.png
+[0.159s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Radio tower/thumbnails/2.png
+[0.159s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Radio tower/thumbnails/3.png
+[0.159s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Radio tower/materials
+[0.159s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Radio tower/materials/textures
+[0.159s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Radio tower/materials/textures/radio_tower_diffuse.jpg
+[0.159s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Radio tower/materials/textures/radio_tower_spec.jpg
+[0.159s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Radio tower/model.config
+[0.159s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Thomas_Friends_Wooden_Railway_Talking_Thomas_z7yi7UFHJRj
+[0.159s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Thomas_Friends_Wooden_Railway_Talking_Thomas_z7yi7UFHJRj/meshes
+[0.159s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Thomas_Friends_Wooden_Railway_Talking_Thomas_z7yi7UFHJRj/meshes/model.obj
+[0.159s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Thomas_Friends_Wooden_Railway_Talking_Thomas_z7yi7UFHJRj/meshes/model.mtl
+[0.159s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Thomas_Friends_Wooden_Railway_Talking_Thomas_z7yi7UFHJRj/metadata.pbtxt
+[0.159s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Thomas_Friends_Wooden_Railway_Talking_Thomas_z7yi7UFHJRj/model.sdf
+[0.159s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Thomas_Friends_Wooden_Railway_Talking_Thomas_z7yi7UFHJRj/thumbnails
+[0.159s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Thomas_Friends_Wooden_Railway_Talking_Thomas_z7yi7UFHJRj/thumbnails/0.jpg
+[0.159s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Thomas_Friends_Wooden_Railway_Talking_Thomas_z7yi7UFHJRj/thumbnails/4.jpg
+[0.159s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Thomas_Friends_Wooden_Railway_Talking_Thomas_z7yi7UFHJRj/thumbnails/1.jpg
+[0.159s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Thomas_Friends_Wooden_Railway_Talking_Thomas_z7yi7UFHJRj/thumbnails/3.jpg
+[0.159s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Thomas_Friends_Wooden_Railway_Talking_Thomas_z7yi7UFHJRj/thumbnails/2.jpg
+[0.159s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Thomas_Friends_Wooden_Railway_Talking_Thomas_z7yi7UFHJRj/materials
+[0.159s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Thomas_Friends_Wooden_Railway_Talking_Thomas_z7yi7UFHJRj/materials/textures
+[0.159s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Thomas_Friends_Wooden_Railway_Talking_Thomas_z7yi7UFHJRj/materials/textures/texture.png
+[0.159s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Thomas_Friends_Wooden_Railway_Talking_Thomas_z7yi7UFHJRj/model.config
+[0.159s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Guardians_of_the_Galaxy_Galactic_Battlers_Rocket_Raccoon_Figure
+[0.159s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Guardians_of_the_Galaxy_Galactic_Battlers_Rocket_Raccoon_Figure/meshes
+[0.159s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Guardians_of_the_Galaxy_Galactic_Battlers_Rocket_Raccoon_Figure/meshes/model.obj
+[0.159s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Guardians_of_the_Galaxy_Galactic_Battlers_Rocket_Raccoon_Figure/meshes/model.mtl
+[0.159s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Guardians_of_the_Galaxy_Galactic_Battlers_Rocket_Raccoon_Figure/metadata.pbtxt
+[0.159s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Guardians_of_the_Galaxy_Galactic_Battlers_Rocket_Raccoon_Figure/model.sdf
+[0.159s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Guardians_of_the_Galaxy_Galactic_Battlers_Rocket_Raccoon_Figure/thumbnails
+[0.159s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Guardians_of_the_Galaxy_Galactic_Battlers_Rocket_Raccoon_Figure/thumbnails/0.jpg
+[0.159s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Guardians_of_the_Galaxy_Galactic_Battlers_Rocket_Raccoon_Figure/thumbnails/4.jpg
+[0.159s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Guardians_of_the_Galaxy_Galactic_Battlers_Rocket_Raccoon_Figure/thumbnails/1.jpg
+[0.160s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Guardians_of_the_Galaxy_Galactic_Battlers_Rocket_Raccoon_Figure/thumbnails/3.jpg
+[0.160s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Guardians_of_the_Galaxy_Galactic_Battlers_Rocket_Raccoon_Figure/thumbnails/2.jpg
+[0.160s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Guardians_of_the_Galaxy_Galactic_Battlers_Rocket_Raccoon_Figure/materials
+[0.160s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Guardians_of_the_Galaxy_Galactic_Battlers_Rocket_Raccoon_Figure/materials/textures
+[0.160s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Guardians_of_the_Galaxy_Galactic_Battlers_Rocket_Raccoon_Figure/materials/textures/texture.png
+[0.160s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Guardians_of_the_Galaxy_Galactic_Battlers_Rocket_Raccoon_Figure/model.config
+[0.160s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/castle
+[0.160s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/castle/textures
+[0.160s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/castle/textures/grass_textures
+[0.160s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/castle/textures/grass_textures/green_grass_circular.png
+[0.160s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/castle/textures/grass_textures/green_grass_seamless.jpg
+[0.160s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/castle/textures/misc_textures
+[0.160s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/castle/textures/misc_textures/lava_2.jpeg
+[0.160s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/castle/textures/misc_textures/lava_5.jpeg
+[0.160s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/castle/textures/misc_textures/lava.jpeg
+[0.160s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/castle/textures/misc_textures/lava_3.jpeg
+[0.160s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/castle/textures/misc_textures/lava_4.jpeg
+[0.160s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/castle/textures/wood_textures
+[0.160s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/castle/textures/wood_textures/wood_texture_seamless_1x5.jpg
+[0.160s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/castle/textures/wood_textures/wood_texture_seamless_1x10.jpg
+[0.160s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/castle/textures/wood_textures/wood_texture_seamless_1x2.jpg
+[0.160s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/castle/textures/wood_textures/wood_texture_seamless_1x3.jpg
+[0.160s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/castle/textures/wood_textures/wood_texture_seamless_1x1.jpg
+[0.160s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/castle/textures/soil_textures
+[0.160s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/castle/textures/soil_textures/soil_seamless_1.jpg
+[0.160s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/castle/textures/soil_textures/dirt.jpeg
+[0.160s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/castle/textures/stone_textures
+[0.160s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/castle/textures/stone_textures/stone_wall_seamless_1x3.jpg
+[0.160s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/castle/textures/stone_textures/stone_wall_seamless_1x2.jpg
+[0.160s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/castle/textures/stone_textures/stone_wall_seamless_2x1.jpg
+[0.160s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/castle/textures/stone_textures/stone_wall_seamless_4x1.jpg
+[0.160s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/castle/textures/stone_textures/stone_wall_seamless_1x1.jpg
+[0.160s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/castle/model.sdf
+[0.161s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Sky
+[0.161s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Sky/meshes
+[0.161s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Sky/meshes/sky.dae
+[0.161s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Sky/model.sdf
+[0.161s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Sky/thumbnails
+[0.161s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Sky/thumbnails/Sky.png
+[0.161s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Sky/materials
+[0.161s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Sky/materials/textures
+[0.161s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Sky/materials/textures/Sky.png
+[0.161s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Sky/model.config
+[0.161s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/cone_red
+[0.161s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/cone_red/meshes
+[0.161s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/cone_red/meshes/cone.stl
+[0.161s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/cone_red/model.sdf
+[0.161s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/cone_red/thumbnails
+[0.161s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/cone_red/thumbnails/Screenshot from 2025-07-05 15-17-11.png
+[0.161s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/cone_red/model.config
+[0.161s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Dumpster
+[0.161s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Dumpster/meshes
+[0.161s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Dumpster/meshes/dumpster.dae
+[0.161s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Dumpster/model-1_3.sdf
+[0.161s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Dumpster/model.sdf
+[0.161s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Dumpster/model-1_4.sdf
+[0.161s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Dumpster/thumbnails
+[0.161s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Dumpster/thumbnails/5.png
+[0.161s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Dumpster/thumbnails/4.png
+[0.161s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Dumpster/thumbnails/1.png
+[0.161s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Dumpster/thumbnails/2.png
+[0.161s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Dumpster/thumbnails/3.png
+[0.161s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Dumpster/materials
+[0.161s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Dumpster/materials/textures
+[0.161s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Dumpster/materials/textures/Dumpster_Spec.png
+[0.161s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Dumpster/materials/textures/Dumpster_Diffuse.png
+[0.161s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Dumpster/materials/scripts
+[0.161s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Dumpster/materials/scripts/dumpster.material
+[0.161s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Dumpster/model.config
+[0.161s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Warehouse
+[0.161s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Warehouse/meshes
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Warehouse/meshes/Terrazzo005_1K_Color.jpg
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Warehouse/meshes/warehouse.dae
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Warehouse/meshes/warehouse_colision.stl
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Warehouse/meshes/ground.png
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Warehouse/meshes/Asphalt010_1K_Color.jpg
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Warehouse/meshes/Tape001_1K_Color.png
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Warehouse/meshes/Rough_Square_Concrete_Block.jpg
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Warehouse/model.sdf
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Warehouse/thumbnails
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Warehouse/thumbnails/4.png
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Warehouse/thumbnails/1.png
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Warehouse/thumbnails/2.png
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Warehouse/thumbnails/3.png
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Warehouse/model.config
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/platypus
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/platypus/meshes
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/platypus/meshes/platypus.dae
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/platypus/model.sdf
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/platypus/thumbnails
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/platypus/thumbnails/5.png
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/platypus/thumbnails/4.png
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/platypus/thumbnails/1.png
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/platypus/thumbnails/2.png
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/platypus/thumbnails/3.png
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/platypus/materials
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/platypus/materials/textures
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/platypus/materials/textures/Platypus_Roughness.png
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/platypus/materials/textures/Platypus_Normal.png
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/platypus/materials/textures/Platypus_BaseColor.png
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/platypus/model.config
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Lionfish
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Lionfish/meshes
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Lionfish/meshes/Lionfish.dae
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Lionfish/model.sdf
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Lionfish/thumbnails
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Lionfish/thumbnails/5.png
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Lionfish/thumbnails/4.png
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Lionfish/thumbnails/1.png
+[0.162s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Lionfish/thumbnails/2.png
+[0.163s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Lionfish/thumbnails/3.png
+[0.163s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Lionfish/materials
+[0.163s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Lionfish/materials/textures
+[0.163s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Lionfish/materials/textures/Lionfish_Normal.png
+[0.163s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Lionfish/materials/textures/Lionfish_Albedo.png
+[0.163s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Lionfish/materials/textures/Lionfish_Roughness.png
+[0.163s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Lionfish/materials/scripts
+[0.163s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Lionfish/materials/scripts/model.material
+[0.163s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Lionfish/model.config
+[0.163s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Backpack
+[0.163s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Backpack/meshes
+[0.163s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Backpack/meshes/Backpack.dae
+[0.163s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Backpack/model.sdf
+[0.163s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Backpack/thumbnails
+[0.163s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Backpack/thumbnails/5.png
+[0.163s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Backpack/thumbnails/4.png
+[0.163s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Backpack/thumbnails/1.png
+[0.163s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Backpack/thumbnails/2.png
+[0.163s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Backpack/thumbnails/3.png
+[0.163s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Backpack/materials
+[0.163s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Backpack/materials/textures
+[0.163s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Backpack/materials/textures/Backpack.png
+[0.163s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Backpack/model.config
+[0.163s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Stop light post
+[0.163s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Stop light post/meshes
+[0.163s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Stop light post/meshes/stop_light_post.mtl
+[0.163s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Stop light post/meshes/stop_light_post.obj
+[0.163s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Stop light post/meshes/stop_light_extension.mtl
+[0.163s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Stop light post/meshes/stop_light_extension.obj
+[0.163s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Stop light post/model.sdf
+[0.163s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Stop light post/thumbnails
+[0.163s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Stop light post/thumbnails/5.png
+[0.163s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Stop light post/thumbnails/4.png
+[0.163s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Stop light post/thumbnails/1.png
+[0.163s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Stop light post/thumbnails/2.png
+[0.163s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Stop light post/thumbnails/3.png
+[0.163s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Stop light post/materials
+[0.164s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Stop light post/materials/textures
+[0.164s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Stop light post/materials/textures/stop_light.png
+[0.164s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Stop light post/model.config
+[0.164s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/turtle
+[0.164s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/turtle/meshes
+[0.164s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/turtle/meshes/turtle.dae
+[0.164s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/turtle/model.sdf
+[0.164s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/turtle/thumbnails
+[0.164s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/turtle/thumbnails/5.png
+[0.164s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/turtle/thumbnails/4.png
+[0.164s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/turtle/thumbnails/1.png
+[0.164s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/turtle/thumbnails/2.png
+[0.164s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/turtle/thumbnails/3.png
+[0.164s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/turtle/materials
+[0.164s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/turtle/materials/textures
+[0.164s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/turtle/materials/textures/Turtle_Normal.png
+[0.164s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/turtle/materials/textures/Turtle_BaseColor.png
+[0.164s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/turtle/materials/textures/Turtle_Roughness.png
+[0.164s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/turtle/model.config
+[0.164s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/wooden_gazebo
+[0.164s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/wooden_gazebo/meshes
+[0.164s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/wooden_gazebo/meshes/gazebo.dae
+[0.164s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/wooden_gazebo/model.sdf
+[0.164s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/wooden_gazebo/thumbnails
+[0.164s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/wooden_gazebo/thumbnails/5.png
+[0.164s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/wooden_gazebo/thumbnails/4.png
+[0.164s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/wooden_gazebo/thumbnails/1.png
+[0.164s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/wooden_gazebo/thumbnails/2.png
+[0.164s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/wooden_gazebo/thumbnails/3.png
+[0.164s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/wooden_gazebo/materials
+[0.164s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/wooden_gazebo/materials/textures
+[0.164s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/wooden_gazebo/materials/textures/gazebo_spec.jpg
+[0.164s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/wooden_gazebo/materials/textures/gazebo_diffuse.jpg
+[0.164s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/wooden_gazebo/model.config
+[0.164s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/refrigerator
+[0.164s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/refrigerator/meshes
+[0.164s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/refrigerator/meshes/fridge.dae
+[0.164s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/refrigerator/model.sdf
+[0.165s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/refrigerator/thumbnails
+[0.165s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/refrigerator/thumbnails/Fridge.png
+[0.165s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/refrigerator/materials
+[0.165s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/refrigerator/materials/textures
+[0.165s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/refrigerator/materials/textures/Fridge_Albedo.jpg
+[0.165s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/refrigerator/materials/textures/Fridge_Roughness.jpg
+[0.165s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/refrigerator/materials/textures/Fridge_Metalness.jpg
+[0.165s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/refrigerator/materials/textures/Fridge_Normal.png
+[0.165s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/refrigerator/model.config
+[0.165s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/buggati
+[0.165s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/buggati/enclosure.sdf
+[0.165s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/buggati/model.config
+[0.165s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/crocodile
+[0.165s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/crocodile/meshes
+[0.165s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/crocodile/meshes/crocodile.dae
+[0.165s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/crocodile/model.sdf
+[0.165s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/crocodile/thumbnails
+[0.165s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/crocodile/thumbnails/5.png
+[0.165s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/crocodile/thumbnails/4.png
+[0.165s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/crocodile/thumbnails/1.png
+[0.165s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/crocodile/thumbnails/2.png
+[0.165s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/crocodile/thumbnails/3.png
+[0.165s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/crocodile/materials
+[0.165s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/crocodile/materials/textures
+[0.165s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/crocodile/materials/textures/Crocodile_BaseColor.png
+[0.165s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/crocodile/materials/textures/Crocodile_Normal.png
+[0.165s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/crocodile/materials/textures/Crocodile_Roughness.png
+[0.165s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/crocodile/model.config
+[0.165s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/foldable_chair
+[0.165s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/foldable_chair/model.sdf
+[0.165s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/foldable_chair/thumbnails
+[0.165s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/foldable_chair/thumbnails/5.png
+[0.165s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/foldable_chair/thumbnails/4.png
+[0.165s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/foldable_chair/thumbnails/1.png
+[0.165s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/foldable_chair/thumbnails/2.png
+[0.165s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/foldable_chair/thumbnails/3.png
+[0.165s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/foldable_chair/model.config
+[0.165s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/foldable_chair/mesh
+[0.166s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/foldable_chair/mesh/foldable_chair.dae
+[0.166s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/foldable_chair/mesh/foldable_chair.png
+[0.166s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/tv_65in_emissive
+[0.166s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/tv_65in_emissive/material
+[0.166s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/tv_65in_emissive/material/script
+[0.166s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/tv_65in_emissive/material/script/tv_emissive.material
+[0.166s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/tv_65in_emissive/material/textures
+[0.166s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/tv_65in_emissive/material/textures/tv_65in_maldives_909x541.jpg
+[0.166s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/tv_65in_emissive/model.sdf
+[0.166s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/tv_65in_emissive/thumbnails
+[0.166s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/tv_65in_emissive/thumbnails/1.png
+[0.166s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/tv_65in_emissive/model.config
+[0.166s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Office Desk
+[0.166s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Office Desk/meshes
+[0.166s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Office Desk/meshes/desk.dae
+[0.166s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Office Desk/model.sdf
+[0.166s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Office Desk/thumbnails
+[0.166s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Office Desk/thumbnails/Desk.png
+[0.166s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Office Desk/materials
+[0.166s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Office Desk/materials/textures
+[0.166s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Office Desk/materials/textures/Desk_Roughness.png
+[0.166s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Office Desk/materials/textures/Desk_Albedo.png
+[0.166s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Office Desk/materials/textures/Desk_Normal.png
+[0.166s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Office Desk/model.config
+[0.166s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/casual_female
+[0.166s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/casual_female/meshes
+[0.166s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/casual_female/meshes/casual_female.dae
+[0.166s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/casual_female/model.sdf
+[0.166s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/casual_female/thumbnails
+[0.166s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/casual_female/thumbnails/5.png
+[0.166s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/casual_female/thumbnails/4.png
+[0.166s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/casual_female/thumbnails/1.png
+[0.166s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/casual_female/thumbnails/2.png
+[0.166s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/casual_female/thumbnails/3.png
+[0.166s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/casual_female/materials
+[0.166s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/casual_female/materials/textures
+[0.166s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/casual_female/materials/textures/eyelashes01.png
+[0.167s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/casual_female/materials/textures/female_casualsuit02_normal.png
+[0.167s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/casual_female/materials/textures/female_casualsuit02_diffuse.png
+[0.167s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/casual_female/materials/textures/brown_eye.png
+[0.167s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/casual_female/materials/textures/shoes05_diffuse.png
+[0.167s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/casual_female/materials/textures/ponytail01_diffuse.png
+[0.167s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/casual_female/materials/textures/female_casualsuit01_normal.png
+[0.167s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/casual_female/materials/textures/casual_female.png
+[0.167s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/casual_female/materials/textures/female_casualsuit01_diffuse.png
+[0.167s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/casual_female/materials/textures/eyebrow002.png
+[0.167s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/casual_female/materials/textures/tongue01_diffuse.png
+[0.167s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/casual_female/materials/textures/young_lightskinned_female_diffuse.png
+[0.167s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/casual_female/model.config
+[0.167s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/cone_yellow
+[0.167s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/cone_yellow/meshes
+[0.167s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/cone_yellow/meshes/cone.stl
+[0.167s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/cone_yellow/model.sdf
+[0.167s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/cone_yellow/thumbnails
+[0.167s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/cone_yellow/thumbnails/Screenshot from 2025-07-05 15-12-53.png
+[0.167s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/cone_yellow/model.config
+[0.167s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Water tower
+[0.167s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Water tower/meshes
+[0.167s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Water tower/meshes/water_tower.dae
+[0.167s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Water tower/model.sdf
+[0.167s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Water tower/thumbnails
+[0.167s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Water tower/thumbnails/5.png
+[0.167s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Water tower/thumbnails/4.png
+[0.167s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Water tower/thumbnails/1.png
+[0.167s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Water tower/thumbnails/2.png
+[0.167s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Water tower/thumbnails/3.png
+[0.167s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Water tower/materials
+[0.167s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Water tower/materials/textures
+[0.167s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Water tower/materials/textures/water_tower_diffuse.jpg
+[0.167s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Water tower/materials/textures/water_tower_spec.jpg
+[0.168s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Water tower/model.config
+[0.168s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/branch_leaves
+[0.168s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/branch_leaves/textures
+[0.168s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/branch_leaves/textures/bright_green_leaves_small.jpg
+[0.168s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/branch_leaves/model.sdf
+[0.168s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_house
+[0.168s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_house/meshes
+[0.168s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_house/meshes/collapsed_house.dae
+[0.168s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_house/piano.zip
+[0.168s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_house/metadata.pbtxt
+[0.168s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_house/model.sdf
+[0.168s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_house/thumbnails
+[0.168s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_house/thumbnails/5.png
+[0.168s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_house/thumbnails/4.png
+[0.168s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_house/thumbnails/1.png
+[0.168s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_house/thumbnails/2.png
+[0.168s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_house/thumbnails/3.png
+[0.168s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_house/materials
+[0.168s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_house/materials/textures
+[0.168s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_house/materials/textures/collapsed_house_diffuse.jpg
+[0.168s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_house/materials/textures/collapsed_house_spec.jpg
+[0.168s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/collapsed_house/model.config
+[0.168s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Schleich_Therizinosaurus_ln9cruulPqc
+[0.168s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Schleich_Therizinosaurus_ln9cruulPqc/meshes
+[0.168s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Schleich_Therizinosaurus_ln9cruulPqc/meshes/model.obj
+[0.168s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Schleich_Therizinosaurus_ln9cruulPqc/meshes/model.mtl
+[0.168s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Schleich_Therizinosaurus_ln9cruulPqc/metadata.pbtxt
+[0.168s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Schleich_Therizinosaurus_ln9cruulPqc/model.sdf
+[0.168s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Schleich_Therizinosaurus_ln9cruulPqc/thumbnails
+[0.168s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Schleich_Therizinosaurus_ln9cruulPqc/thumbnails/0.jpg
+[0.168s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Schleich_Therizinosaurus_ln9cruulPqc/thumbnails/4.jpg
+[0.168s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Schleich_Therizinosaurus_ln9cruulPqc/thumbnails/1.jpg
+[0.168s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Schleich_Therizinosaurus_ln9cruulPqc/thumbnails/3.jpg
+[0.169s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Schleich_Therizinosaurus_ln9cruulPqc/thumbnails/2.jpg
+[0.169s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Schleich_Therizinosaurus_ln9cruulPqc/materials
+[0.169s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Schleich_Therizinosaurus_ln9cruulPqc/materials/textures
+[0.169s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Schleich_Therizinosaurus_ln9cruulPqc/materials/textures/dino_texture.png
+[0.169s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Schleich_Therizinosaurus_ln9cruulPqc/model.config
+[0.169s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/aws_robomaker_warehouse_PalletJackB_01
+[0.169s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/aws_robomaker_warehouse_PalletJackB_01/meshes
+[0.169s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.DAE
+[0.169s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.DAE
+[0.169s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/aws_robomaker_warehouse_PalletJackB_01/metadata.pbtxt
+[0.169s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/aws_robomaker_warehouse_PalletJackB_01/model.sdf
+[0.169s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/aws_robomaker_warehouse_PalletJackB_01/thumbnails
+[0.169s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/aws_robomaker_warehouse_PalletJackB_01/thumbnails/5.png
+[0.169s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/aws_robomaker_warehouse_PalletJackB_01/thumbnails/4.png
+[0.169s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/aws_robomaker_warehouse_PalletJackB_01/thumbnails/1.png
+[0.169s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/aws_robomaker_warehouse_PalletJackB_01/thumbnails/2.png
+[0.169s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/aws_robomaker_warehouse_PalletJackB_01/thumbnails/3.png
+[0.169s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/aws_robomaker_warehouse_PalletJackB_01/materials
+[0.169s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/aws_robomaker_warehouse_PalletJackB_01/materials/textures
+[0.169s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_02.png
+[0.169s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_01.png
+[0.169s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/aws_robomaker_warehouse_PalletJackB_01/model.config
+[0.169s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cardboard box
+[0.169s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cardboard box/meshes
+[0.169s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cardboard box/meshes/cardboard_box.dae
+[0.169s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cardboard box/model.sdf
+[0.169s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cardboard box/thumbnails
+[0.169s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cardboard box/thumbnails/5.png
+[0.169s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cardboard box/thumbnails/4.png
+[0.169s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cardboard box/thumbnails/1.png
+[0.169s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cardboard box/thumbnails/2.png
+[0.169s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cardboard box/thumbnails/3.png
+[0.170s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cardboard box/materials
+[0.170s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cardboard box/materials/textures
+[0.170s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cardboard box/materials/textures/cardboard_box.png
+[0.170s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Cardboard box/model.config
+[0.170s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Coke Can Steel
+[0.170s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Coke Can Steel/meshes
+[0.170s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Coke Can Steel/meshes/coke_can.mtl
+[0.170s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Coke Can Steel/meshes/coke_can.png
+[0.170s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Coke Can Steel/meshes/coke_can.obj
+[0.170s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Coke Can Steel/model.sdf
+[0.170s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Coke Can Steel/thumbnails
+[0.170s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Coke Can Steel/thumbnails/1.png
+[0.170s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Coke Can Steel/thumbnails/2.png
+[0.170s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Coke Can Steel/model.config
+[0.170s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/parking_garage
+[0.170s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/parking_garage/meshes
+[0.170s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/parking_garage/meshes/parking_garage.dae
+[0.170s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/parking_garage/model.sdf
+[0.170s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/parking_garage/thumbnails
+[0.170s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/parking_garage/thumbnails/5.png
+[0.170s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/parking_garage/thumbnails/4.png
+[0.170s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/parking_garage/thumbnails/1.png
+[0.170s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/parking_garage/thumbnails/2.png
+[0.170s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/parking_garage/thumbnails/3.png
+[0.170s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/parking_garage/materials
+[0.170s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/parking_garage/materials/textures
+[0.170s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/parking_garage/materials/textures/parking_garage_diffuse.jpg
+[0.170s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/parking_garage/materials/textures/parking_garage_spec.jpg
+[0.170s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/parking_garage/model.config
+[0.170s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Movable green coke can
+[0.170s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Movable green coke can/meshes
+[0.171s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Movable green coke can/meshes/coke_can_green.mtl
+[0.171s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Movable green coke can/meshes/coke_can.obj
+[0.171s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Movable green coke can/meshes/coke_can_green.png
+[0.171s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Movable green coke can/model.sdf
+[0.171s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Movable green coke can/thumbnails
+[0.171s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Movable green coke can/thumbnails/1.png
+[0.171s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Movable green coke can/model.config
+[0.171s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Mustard Bottle
+[0.171s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Mustard Bottle/textured.obj
+[0.171s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Mustard Bottle/textured.dae
+[0.171s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Mustard Bottle/model.sdf
+[0.171s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Mustard Bottle/thumbnails
+[0.171s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Mustard Bottle/thumbnails/5.png
+[0.171s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Mustard Bottle/thumbnails/4.png
+[0.171s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Mustard Bottle/thumbnails/1.png
+[0.171s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Mustard Bottle/thumbnails/2.png
+[0.171s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Mustard Bottle/thumbnails/3.png
+[0.171s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Mustard Bottle/texture_map.png
+[0.171s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Mustard Bottle/textured.mtl
+[0.171s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Mustard Bottle/model.config
+[0.171s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Imaginext_Castle_Ogre
+[0.171s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Imaginext_Castle_Ogre/meshes
+[0.171s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Imaginext_Castle_Ogre/meshes/model.obj
+[0.171s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Imaginext_Castle_Ogre/meshes/model.mtl
+[0.171s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Imaginext_Castle_Ogre/metadata.pbtxt
+[0.171s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Imaginext_Castle_Ogre/model.sdf
+[0.171s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Imaginext_Castle_Ogre/thumbnails
+[0.171s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Imaginext_Castle_Ogre/thumbnails/0.jpg
+[0.171s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Imaginext_Castle_Ogre/thumbnails/4.jpg
+[0.171s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Imaginext_Castle_Ogre/thumbnails/1.jpg
+[0.171s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Imaginext_Castle_Ogre/thumbnails/3.jpg
+[0.171s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Imaginext_Castle_Ogre/thumbnails/2.jpg
+[0.171s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Imaginext_Castle_Ogre/materials
+[0.171s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Imaginext_Castle_Ogre/materials/textures
+[0.171s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Imaginext_Castle_Ogre/materials/textures/texture.png
+[0.172s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/Imaginext_Castle_Ogre/model.config
+[0.172s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/piano
+[0.172s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/piano/meshes
+[0.172s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/piano/meshes/piano.dae
+[0.172s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/piano/model.sdf
+[0.172s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/piano/thumbnails
+[0.172s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/piano/thumbnails/Piano.png
+[0.172s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/piano/model.config
+[0.172s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/STEAK_SET
+[0.172s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/STEAK_SET/meshes
+[0.172s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/STEAK_SET/meshes/model.obj
+[0.172s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/STEAK_SET/meshes/model.mtl
+[0.172s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/STEAK_SET/metadata.pbtxt
+[0.172s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/STEAK_SET/model.sdf
+[0.172s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/STEAK_SET/thumbnails
+[0.172s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/STEAK_SET/thumbnails/0.jpg
+[0.172s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/STEAK_SET/thumbnails/4.jpg
+[0.172s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/STEAK_SET/thumbnails/1.jpg
+[0.172s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/STEAK_SET/thumbnails/3.jpg
+[0.172s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/STEAK_SET/thumbnails/2.jpg
+[0.172s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/STEAK_SET/materials
+[0.172s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/STEAK_SET/materials/textures
+[0.172s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/STEAK_SET/materials/textures/texture.png
+[0.172s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup//models/STEAK_SET/model.config
+[0.172s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup
+[0.172s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/parent_prefix_path/my_robot_bringup
+[0.172s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.sh
+[0.173s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.dsv
+[0.173s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.sh
+[0.173s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.dsv
+[0.173s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.bash
+[0.173s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.sh
+[0.173s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.zsh
+[0.173s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.dsv
+[0.173s] -- Installing: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv
+[0.173s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/packages/my_robot_bringup
+[0.173s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig.cmake
+[0.173s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig-version.cmake
+[0.173s] -- Up-to-date: /home/jo-jo/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/package.xml
+[0.174s] Invoked command in '/home/jo-jo/ros2_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jo-jo/ros2_ws/build/my_robot_bringup

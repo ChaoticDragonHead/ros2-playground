@@ -1,5 +1,5 @@
 <sdf version='1.10'>
-  <world name='potatoland'>
+  <world name='simple_test'>
     <!-- Physics: realistic & consistent on basic machines -->
     <physics name="ode_cpu" type="ode">
       <!-- 500 Hz sim tick; good balance for CPU-only -->
