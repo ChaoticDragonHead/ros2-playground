@@ -1,0 +1,248 @@
+
+material UrbanTile/Body_Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Body_Albedo.png
+        }
+      }
+    }
+  }
+material UrbanTile/Undercarraige_Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Undercarriage_Albedo.png
+        }
+      }
+    }
+  }
+material UrbanTile/Interior_Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Interior_Albedo.png
+        }
+      }
+    }
+  }
+material UrbanTile/Body_Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Body_Albedo.png
+        }
+      }
+    }
+  }
+material UrbanTile/Body_Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Body_Albedo.png
+        }
+      }
+    }
+  }
+material UrbanTile/Body_Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Body_Albedo.png
+        }
+      }
+    }
+  }
+material UrbanTile/Body_Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Body_Albedo.png
+        }
+      }
+    }
+  }
+material UrbanTile/Body_Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Body_Albedo.png
+        }
+      }
+    }
+  }
+material UrbanTile/Body_Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Body_Albedo.png
+        }
+      }
+    }
+  }
+material UrbanTile/Body_Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Body_Albedo.png
+        }
+      }
+    }
+  }
+material UrbanTile/Body_Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Body_Albedo.png
+        }
+      }
+    }
+  }
+material UrbanTile/Body_Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Body_Albedo.png
+        }
+      }
+    }
+  }
+material UrbanTile/Body_Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Body_Albedo.png
+        }
+      }
+    }
+  }
+material UrbanTile/Body_Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Body_Albedo.png
+        }
+      }
+    }
+  }
+material UrbanTile/Body_Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Body_Albedo.png
+        }
+      }
+    }
+  }
+material UrbanTile/Body_Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Body_Albedo.png
+        }
+      }
+    }
+  }
+material UrbanTile/Body_Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Body_Albedo.png
+        }
+      }
+    }
+  }
+material UrbanTile/Body_Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Body_Albedo.png
+        }
+      }
+    }
+  }
+material UrbanTile/Body_Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Body_Albedo.png
+        }
+      }
+    }
+  }

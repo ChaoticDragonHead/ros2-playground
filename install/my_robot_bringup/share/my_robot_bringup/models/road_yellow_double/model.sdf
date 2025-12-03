@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="road">
+    <static>true</static>
+      <link name="link_base">
+      <pose>0 0 .25 0 0 0</pose>
+        <collision name="col">
+            <geometry>
+                <box><size>20 10 .5</size></box>
+            </geometry>
+        </collision>
+        <visual name="vis">
+            <geometry>
+                <box><size>20 10 .5</size></box>
+            </geometry>
+          <material>
+            <ambient>0.31 0.30 0.29 1</ambient>
+            <diffuse>0.40 0.40 0.39 1</diffuse>
+            <pbr>
+              <metal>
+                <albedo_map>textures/asphalt.jpeg</albedo_map>
+                <roughness>0.9</roughness>
+                <metalness>0.0</metalness>
+              </metal>
+            </pbr>
+          </material>
+        </visual>
+      </link>
+
+      <link name="link_line_left">
+        <pose>0 .5 .3 0 0 0</pose>
+          <collision name="col">
+            <geometry>
+              <box><size>20 .5 .6</size></box>
+            </geometry>
+          </collision>
+
+          <visual name="vis">
+            <geometry>
+              <box><size>20 .5 .6</size></box>
+            </geometry>
+
+            <material>
+            <ambient>0.9 0.9 0.23 1</ambient>
+            <diffuse>1 1 0.33 1</diffuse>
+
+            <color rgba="2.28 2.4 .09 1"/>
+            </material>
+          </visual>
+      </link>
+
+      <link name="link_line_right">
+        <pose>0 -.5 .3 0 0 0</pose>
+          <collision name="col">
+            <geometry>
+              <box><size>20 .5 .6</size></box>
+            </geometry>
+          </collision>
+
+          <visual name="vis">
+            <geometry>
+              <box><size>20 .5 .6</size></box>
+            </geometry>
+
+            <material>
+            <ambient>0.9 0.9 0.23 1</ambient>
+            <diffuse>1 1 0.33 1</diffuse>
+
+            <color rgba="2.28 2.4 .09 1"/>
+            </material>
+          </visual>
+      </link>
+  </model>
+</sdf>

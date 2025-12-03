@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="delivery_artistic_picture">
+    <static>true</static>
+    <pose>0 0 0 1.57 0 -1.57</pose>
+    <link name="link">
+      <visual name="v1">
+        <geometry>
+          <mesh><uri>model://meshes/delivery_artistic_picture.dae</uri></mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

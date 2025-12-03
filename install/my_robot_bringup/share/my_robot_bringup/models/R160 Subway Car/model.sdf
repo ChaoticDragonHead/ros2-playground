@@ -1,0 +1,1435 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="r160">
+    <link name="base_link">
+      <inertial>
+        <pose>0 0 1.8593 0 0 0</pose>
+        <inertia>
+            <ixx>1152745.793633333</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>76461.60269191333</iyy>
+            <iyz>0</iyz>
+            <izz>1173166.5251999996</izz>
+        </inertia>
+        <mass>38326</mass>
+      </inertial>
+
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/r160.dae</uri>
+            <submesh>
+              <name>Body</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <collide_bitmask>0x01</collide_bitmask>
+          </contact>
+        </surface>
+      </collision>
+      <visual name="Body_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/r160.dae</uri>
+            <submesh>
+              <name>Body</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/Body_Albedo.png</albedo_map>
+              <metalness_map>materials/textures/Body_Metalness.png</metalness_map>
+              <roughness_map>materials/textures/Body_Roughness.png</roughness_map>
+              <emissive_map>materials/textures/Body_Emissive.png</emissive_map>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="Undercarriage_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/r160.dae</uri>
+            <submesh>
+              <name>Undercarriage</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/Undercarriage_Albedo.png</albedo_map>
+              <metalness_map>materials/textures/Undercarriage_Metalness.png</metalness_map>
+              <roughness_map>materials/textures/Undercarriage_Roughness.png</roughness_map>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+
+      <collision name="undercarriage_collision">
+        <pose>0 0 0.55 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>3 17 1.1</size>
+          </box>
+        </geometry>
+      </collision>
+
+      <collision name="Interior_collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/r160.dae</uri>
+            <submesh>
+              <name>Interior</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <collide_bitmask>0x01</collide_bitmask>
+          </contact>
+        </surface>
+      </collision>
+
+      <visual name="Interior_visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/r160.dae</uri>
+            <submesh>
+              <name>Interior</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/Interior_Albedo.png</albedo_map>
+              <metalness_map>materials/textures/Interior_Metalness.png</metalness_map>
+              <roughness_map>materials/textures/Interior_Roughness.png</roughness_map>
+              <emissive_map>materials/textures/Interior_Emissive.png</emissive_map>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+    </link>
+
+    <link name="rightside_door1_rightpanel">
+      <pose>-1.3565 -6.7189 2.1595 0 0 0</pose>
+      <inertial>
+        <inertia>
+            <ixx>7.1247</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>6.31804</iyy>
+            <iyz>0</iyz>
+            <izz>0.8974</izz>
+        </inertia>
+        <mass>20</mass>
+      </inertial>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/r160.dae</uri>
+            <submesh>
+              <name>Door16</name>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <collide_bitmask>0x01</collide_bitmask>
+          </contact>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/r160.dae</uri>
+            <submesh>
+              <name>Door16</name>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/Body_Albedo.png</albedo_map>
+              <metalness_map>materials/textures/Body_Metalness.png</metalness_map>
+              <roughness_map>materials/textures/Body_Roughness.png</roughness_map>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+    </link>
+    <link name="rightside_door1_leftpanel">
+      <pose>-1.3565 -6.0042 2.1595 0 0 0</pose>
+      <inertial>
+        <inertia>
+            <ixx>7.1247</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>6.31804</iyy>
+            <iyz>0</iyz>
+            <izz>0.8974</izz>
+        </inertia>
+        <mass>20</mass>
+      </inertial>
+
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/r160.dae</uri>
+            <submesh>
+              <name>Door15</name>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <collide_bitmask>0x01</collide_bitmask>
+          </contact>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/r160.dae</uri>
+            <submesh>
+              <name>Door15</name>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/Body_Albedo.png</albedo_map>
+              <metalness_map>materials/textures/Body_Metalness.png</metalness_map>
+              <roughness_map>materials/textures/Body_Roughness.png</roughness_map>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+    </link>
+    <link name="rightside_door2_rightpanel">
+      <pose>-1.3565 -2.413 2.1595 0 0 0</pose>
+      <inertial>
+        <inertia>
+            <ixx>7.1247</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>6.31804</iyy>
+            <iyz>0</iyz>
+            <izz>0.8974</izz>
+        </inertia>
+        <mass>20</mass>
+      </inertial>
+
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/r160.dae</uri>
+            <submesh>
+              <name>Door14</name>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <collide_bitmask>0x01</collide_bitmask>
+          </contact>
+        </surface>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/r160.dae</uri>
+            <submesh>
+              <name>Door14</name>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/Body_Albedo.png</albedo_map>
+              <metalness_map>materials/textures/Body_Metalness.png</metalness_map>
+              <roughness_map>materials/textures/Body_Roughness.png</roughness_map>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+    </link>
+    <link name="rightside_door2_leftpanel">
+      <pose>-1.3565 -1.6983 2.1595 0 0 0</pose>
+      <inertial>
+        <inertia>
+            <ixx>7.1247</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>6.31804</iyy>
+            <iyz>0</iyz>
+            <izz>0.8974</izz>
+        </inertia>
+        <mass>20</mass>
+      </inertial>
+
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/r160.dae</uri>
+            <submesh>
+              <name>Door13</name>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <collide_bitmask>0x01</collide_bitmask>
+          </contact>
+        </surface>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/r160.dae</uri>
+            <submesh>
+              <name>Door13</name>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/Body_Albedo.png</albedo_map>
+              <metalness_map>materials/textures/Body_Metalness.png</metalness_map>
+              <roughness_map>materials/textures/Body_Roughness.png</roughness_map>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+    </link>
+
+    <link name="rightside_door3_rightpanel">
+      <pose>-1.3565 1.7018 2.1595 0 0 0</pose>
+      <inertial>
+        <inertia>
+            <ixx>7.1247</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>6.31804</iyy>
+            <iyz>0</iyz>
+            <izz>0.8974</izz>
+        </inertia>
+        <mass>20</mass>
+      </inertial>
+
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/r160.dae</uri>
+            <submesh>
+              <name>Door12</name>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <collide_bitmask>0x01</collide_bitmask>
+          </contact>
+        </surface>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/r160.dae</uri>
+            <submesh>
+              <name>Door12</name>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/Body_Albedo.png</albedo_map>
+              <metalness_map>materials/textures/Body_Metalness.png</metalness_map>
+              <roughness_map>materials/textures/Body_Roughness.png</roughness_map>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+    </link>
+
+    <link name="rightside_door3_leftpanel">
+      <pose>-1.3565 2.413 2.1595 0 0 0</pose>
+      <inertial>
+        <inertia>
+            <ixx>7.1247</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>6.31804</iyy>
+            <iyz>0</iyz>
+            <izz>0.8974</izz>
+        </inertia>
+        <mass>20</mass>
+      </inertial>
+
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/r160.dae</uri>
+            <submesh>
+              <name>Door11</name>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <collide_bitmask>0x01</collide_bitmask>
+          </contact>
+        </surface>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/r160.dae</uri>
+            <submesh>
+              <name>Door11</name>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/Body_Albedo.png</albedo_map>
+              <metalness_map>materials/textures/Body_Metalness.png</metalness_map>
+              <roughness_map>materials/textures/Body_Roughness.png</roughness_map>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+    </link>
+
+    <link name="rightside_door4_rightpanel">
+      <pose>-1.3565 6.0042 2.1595 0 0 0</pose>
+      <inertial>
+        <inertia>
+            <ixx>7.1247</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>6.31804</iyy>
+            <iyz>0</iyz>
+            <izz>0.8974</izz>
+        </inertia>
+        <mass>20</mass>
+      </inertial>
+
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/r160.dae</uri>
+            <submesh>
+              <name>Door10</name>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <collide_bitmask>0x01</collide_bitmask>
+          </contact>
+        </surface>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/r160.dae</uri>
+            <submesh>
+              <name>Door10</name>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/Body_Albedo.png</albedo_map>
+              <metalness_map>materials/textures/Body_Metalness.png</metalness_map>
+              <roughness_map>materials/textures/Body_Roughness.png</roughness_map>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+    </link>
+    <link name="rightside_door4_leftpanel">
+      <pose>-1.3565 6.7189 2.1595 0 0 0</pose>
+      <inertial>
+        <inertia>
+            <ixx>7.1247</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>6.31804</iyy>
+            <iyz>0</iyz>
+            <izz>0.8974</izz>
+        </inertia>
+        <mass>20</mass>
+      </inertial>
+
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/r160.dae</uri>
+            <submesh>
+              <name>Door09</name>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <collide_bitmask>0x01</collide_bitmask>
+          </contact>
+        </surface>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/r160.dae</uri>
+            <submesh>
+              <name>Door09</name>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/Body_Albedo.png</albedo_map>
+              <metalness_map>materials/textures/Body_Metalness.png</metalness_map>
+              <roughness_map>materials/textures/Body_Roughness.png</roughness_map>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+    </link>
+
+    <link name="leftside_door1_rightpanel">
+      <pose>1.3565 -6.0042 2.1595 0 0 0</pose>
+      <inertial>
+        <inertia>
+            <ixx>7.1247</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>6.31804</iyy>
+            <iyz>0</iyz>
+            <izz>0.8974</izz>
+        </inertia>
+        <mass>20</mass>
+      </inertial>
+
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/r160.dae</uri>
+            <submesh>
+              <name>Door02</name>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <collide_bitmask>0x01</collide_bitmask>
+          </contact>
+        </surface>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/r160.dae</uri>
+            <submesh>
+              <name>Door02</name>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/Body_Albedo.png</albedo_map>
+              <metalness_map>materials/textures/Body_Metalness.png</metalness_map>
+              <roughness_map>materials/textures/Body_Roughness.png</roughness_map>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+    </link>
+
+    <link name="leftside_door1_leftpanel">
+      <pose>1.3565 -6.677 2.1595 0 0 0</pose>
+      <inertial>
+        <inertia>
+            <ixx>7.1247</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>6.31804</iyy>
+            <iyz>0</iyz>
+            <izz>0.8974</izz>
+        </inertia>
+        <mass>20</mass>
+      </inertial>
+
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/r160.dae</uri>
+            <submesh>
+              <name>Door01</name>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <collide_bitmask>0x01</collide_bitmask>
+          </contact>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/r160.dae</uri>
+            <submesh>
+              <name>Door01</name>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/Body_Albedo.png</albedo_map>
+              <metalness_map>materials/textures/Body_Metalness.png</metalness_map>
+              <roughness_map>materials/textures/Body_Roughness.png</roughness_map>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+    </link>
+
+    <link name="leftside_door2_rightpanel">
+      <pose>1.3565 -1.6983 2.1595 0 0 0</pose>
+      <inertial>
+        <inertia>
+            <ixx>7.1247</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>6.31804</iyy>
+            <iyz>0</iyz>
+            <izz>0.8974</izz>
+        </inertia>
+        <mass>20</mass>
+      </inertial>
+
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/r160.dae</uri>
+            <submesh>
+              <name>Door04</name>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <collide_bitmask>0x01</collide_bitmask>
+          </contact>
+        </surface>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/r160.dae</uri>
+            <submesh>
+              <name>Door04</name>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/Body_Albedo.png</albedo_map>
+              <metalness_map>materials/textures/Body_Metalness.png</metalness_map>
+              <roughness_map>materials/textures/Body_Roughness.png</roughness_map>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+    </link>
+
+    <link name="leftside_door2_leftpanel">
+      <pose>1.3565 -2.413 2.1595 0 0 0</pose>
+      <inertial>
+        <inertia>
+            <ixx>7.1247</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>6.31804</iyy>
+            <iyz>0</iyz>
+            <izz>0.8974</izz>
+        </inertia>
+        <mass>20</mass>
+      </inertial>
+
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/r160.dae</uri>
+            <submesh>
+              <name>Door03</name>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <collide_bitmask>0x01</collide_bitmask>
+          </contact>
+        </surface>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/r160.dae</uri>
+            <submesh>
+              <name>Door03</name>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/Body_Albedo.png</albedo_map>
+              <metalness_map>materials/textures/Body_Metalness.png</metalness_map>
+              <roughness_map>materials/textures/Body_Roughness.png</roughness_map>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+    </link>
+
+    <link name="leftside_door3_rightpanel">
+      <pose>1.3565 2.413 2.1595 0 0 0</pose>
+      <inertial>
+        <inertia>
+            <ixx>7.1247</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>6.31804</iyy>
+            <iyz>0</iyz>
+            <izz>0.8974</izz>
+        </inertia>
+        <mass>20</mass>
+      </inertial>
+
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/r160.dae</uri>
+            <submesh>
+              <name>Door06</name>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <collide_bitmask>0x01</collide_bitmask>
+          </contact>
+        </surface>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/r160.dae</uri>
+            <submesh>
+              <name>Door06</name>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/Body_Albedo.png</albedo_map>
+              <metalness_map>materials/textures/Body_Metalness.png</metalness_map>
+              <roughness_map>materials/textures/Body_Roughness.png</roughness_map>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+    </link>
+
+    <link name="leftside_door3_leftpanel">
+      <pose>1.3565 1.6983 2.1595 0 0 0</pose>
+      <inertial>
+        <inertia>
+            <ixx>7.1247</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>6.31804</iyy>
+            <iyz>0</iyz>
+            <izz>0.8974</izz>
+        </inertia>
+        <mass>20</mass>
+      </inertial>
+
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/r160.dae</uri>
+            <submesh>
+              <name>Door05</name>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <collide_bitmask>0x01</collide_bitmask>
+          </contact>
+        </surface>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/r160.dae</uri>
+            <submesh>
+              <name>Door05</name>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/Body_Albedo.png</albedo_map>
+              <metalness_map>materials/textures/Body_Metalness.png</metalness_map>
+              <roughness_map>materials/textures/Body_Roughness.png</roughness_map>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+    </link>
+
+    <link name="leftside_door4_rightpanel">
+      <pose>1.3565 6.7189 2.1595 0 0 0</pose>
+      <inertial>
+        <inertia>
+            <ixx>7.1247</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>6.31804</iyy>
+            <iyz>0</iyz>
+            <izz>0.8974</izz>
+        </inertia>
+        <mass>20</mass>
+      </inertial>
+
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/r160.dae</uri>
+            <submesh>
+              <name>Door08</name>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <collide_bitmask>0x01</collide_bitmask>
+          </contact>
+        </surface>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/r160.dae</uri>
+            <submesh>
+              <name>Door08</name>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/Body_Albedo.png</albedo_map>
+              <metalness_map>materials/textures/Body_Metalness.png</metalness_map>
+              <roughness_map>materials/textures/Body_Roughness.png</roughness_map>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+    </link>
+
+    <link name="leftside_door4_leftpanel">
+      <pose>1.3565 6.0042 2.1595 0 0 0</pose>
+      <inertial>
+        <inertia>
+            <ixx>7.1247</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>6.31804</iyy>
+            <iyz>0</iyz>
+            <izz>0.8974</izz>
+        </inertia>
+        <mass>20</mass>
+      </inertial>
+
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>meshes/r160.dae</uri>
+            <submesh>
+              <name>Door07</name>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <collide_bitmask>0x01</collide_bitmask>
+          </contact>
+        </surface>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>meshes/r160.dae</uri>
+            <submesh>
+              <name>Door07</name>
+              <center>true</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>1.0 1.0 1.0</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/Body_Albedo.png</albedo_map>
+              <metalness_map>materials/textures/Body_Metalness.png</metalness_map>
+              <roughness_map>materials/textures/Body_Roughness.png</roughness_map>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+    </link>
+
+    <joint name="rightside_door1_rightpanel_joint" type="prismatic">
+      <child>rightside_door1_rightpanel</child>
+      <parent>base_link</parent>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1</lower>
+          <upper>0</upper>
+          <effort>100</effort>
+        </limit>
+      </axis>
+    </joint>
+    <joint name="rightside_door1_leftpanel_joint" type="prismatic">
+      <child>rightside_door1_leftpanel</child>
+      <parent>base_link</parent>
+      <axis>
+        <xyz>0 -1 0</xyz>
+        <limit>
+          <lower>-1</lower>
+          <upper>0</upper>
+          <effort>100</effort>
+        </limit>
+      </axis>
+    </joint>
+
+    <joint name="rightside_door2_rightpanel_joint" type="prismatic">
+      <child>rightside_door2_rightpanel</child>
+      <parent>base_link</parent>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1</lower>
+          <upper>0</upper>
+          <effort>100</effort>
+        </limit>
+      </axis>
+    </joint>
+    <joint name="rightside_door2_leftpanel_joint" type="prismatic">
+      <child>rightside_door2_leftpanel</child>
+      <parent>base_link</parent>
+      <axis>
+        <xyz>0 -1 0</xyz>
+        <limit>
+          <lower>-1</lower>
+          <upper>0</upper>
+          <effort>100</effort>
+        </limit>
+      </axis>
+    </joint>
+
+    <joint name="rightside_door3_rightpanel_joint" type="prismatic">
+      <child>rightside_door3_rightpanel</child>
+      <parent>base_link</parent>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1</lower>
+          <upper>0</upper>
+          <effort>100</effort>
+        </limit>
+      </axis>
+    </joint>
+    <joint name="rightside_door3_leftpanel_joint" type="prismatic">
+      <child>rightside_door3_leftpanel</child>
+      <parent>base_link</parent>
+      <axis>
+        <xyz>0 -1 0</xyz>
+        <limit>
+          <lower>-1</lower>
+          <upper>0</upper>
+          <effort>100</effort>
+        </limit>
+      </axis>
+    </joint>
+    <joint name="rightside_door4_rightpanel_joint" type="prismatic">
+      <child>rightside_door4_rightpanel</child>
+      <parent>base_link</parent>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1</lower>
+          <upper>0</upper>
+          <effort>100</effort>
+        </limit>
+      </axis>
+    </joint>
+    <joint name="rightside_door4_leftpanel_joint" type="prismatic">
+      <child>rightside_door4_leftpanel</child>
+      <parent>base_link</parent>
+      <axis>
+        <xyz>0 -1 0</xyz>
+        <limit>
+          <lower>-1</lower>
+          <upper>0</upper>
+          <effort>100</effort>
+        </limit>
+      </axis>
+    </joint>
+
+
+
+
+
+    <joint name="leftside_door1_rightpanel_joint" type="prismatic">
+      <child>leftside_door1_rightpanel</child>
+      <parent>base_link</parent>
+      <axis>
+        <xyz>0 -1 0</xyz>
+        <limit>
+          <lower>-1</lower>
+          <upper>0</upper>
+          <effort>100</effort>
+        </limit>
+      </axis>
+    </joint>
+    <joint name="leftside_door1_leftpanel_joint" type="prismatic">
+      <child>leftside_door1_leftpanel</child>
+      <parent>base_link</parent>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1</lower>
+          <upper>0</upper>
+          <effort>100</effort>
+        </limit>
+      </axis>
+    </joint>
+
+    <joint name="leftside_door2_rightpanel_joint" type="prismatic">
+      <child>leftside_door2_rightpanel</child>
+      <parent>base_link</parent>
+      <axis>
+        <xyz>0 -1 0</xyz>
+        <limit>
+          <lower>-1</lower>
+          <upper>0</upper>
+          <effort>100</effort>
+        </limit>
+      </axis>
+    </joint>
+    <joint name="leftside_door2_leftpanel_joint" type="prismatic">
+      <child>leftside_door2_leftpanel</child>
+      <parent>base_link</parent>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1</lower>
+          <upper>0</upper>
+          <effort>100</effort>
+        </limit>
+      </axis>
+    </joint>
+
+    <joint name="leftside_door3_rightpanel_joint" type="prismatic">
+      <child>leftside_door3_rightpanel</child>
+      <parent>base_link</parent>
+      <axis>
+        <xyz>0 -1 0</xyz>
+        <limit>
+          <lower>-1</lower>
+          <upper>0</upper>
+          <effort>100</effort>
+        </limit>
+      </axis>
+    </joint>
+    <joint name="leftside_door3_leftpanel_joint" type="prismatic">
+      <child>leftside_door3_leftpanel</child>
+      <parent>base_link</parent>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1</lower>
+          <upper>0</upper>
+          <effort>100</effort>
+        </limit>
+      </axis>
+    </joint>
+    <joint name="leftside_door4_rightpanel_joint" type="prismatic">
+      <child>leftside_door4_rightpanel</child>
+      <parent>base_link</parent>
+      <axis>
+        <xyz>0 -1 0</xyz>
+        <limit>
+          <lower>-1</lower>
+          <upper>0</upper>
+          <effort>100</effort>
+        </limit>
+      </axis>
+    </joint>
+    <joint name="leftside_door4_leftpanel_joint" type="prismatic">
+      <child>leftside_door4_leftpanel</child>
+      <parent>base_link</parent>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1</lower>
+          <upper>0</upper>
+          <effort>100</effort>
+        </limit>
+      </axis>
+    </joint>
+
+
+
+
+
+
+
+
+
+
+
+
+    <plugin
+      filename="ignition-gazebo-joint-position-controller-system"
+      name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>rightside_door1_rightpanel_joint</joint_name>
+      <topic>rightside_door1_rightpanel</topic>
+      <p_gain>40</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>0.01</d_gain>
+      <i_max>1</i_max>
+      <i_min>-1</i_min>
+      <cmd_max>100</cmd_max>
+      <cmd_min>-100</cmd_min>
+    </plugin>
+    <plugin
+      filename="ignition-gazebo-joint-position-controller-system"
+      name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>rightside_door1_leftpanel_joint</joint_name>
+      <topic>rightside_door1_leftpanel</topic>
+      <p_gain>40</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>0.01</d_gain>
+      <i_max>1</i_max>
+      <i_min>-1</i_min>
+      <cmd_max>100</cmd_max>
+      <cmd_min>-100</cmd_min>
+    </plugin>
+
+    <plugin
+      filename="ignition-gazebo-joint-position-controller-system"
+      name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>rightside_door2_rightpanel_joint</joint_name>
+      <topic>rightside_door2_rightpanel</topic>
+      <p_gain>40</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>0.01</d_gain>
+      <i_max>1</i_max>
+      <i_min>-1</i_min>
+      <cmd_max>100</cmd_max>
+      <cmd_min>-100</cmd_min>
+    </plugin>
+    <plugin
+      filename="ignition-gazebo-joint-position-controller-system"
+      name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>rightside_door2_leftpanel_joint</joint_name>
+      <topic>rightside_door2_leftpanel</topic>
+      <p_gain>40</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>0.01</d_gain>
+      <i_max>1</i_max>
+      <i_min>-1</i_min>
+      <cmd_max>100</cmd_max>
+      <cmd_min>-100</cmd_min>
+    </plugin>
+
+    <plugin
+      filename="ignition-gazebo-joint-position-controller-system"
+      name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>rightside_door3_rightpanel_joint</joint_name>
+      <topic>rightside_door3_rightpanel</topic>
+      <p_gain>40</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>0.01</d_gain>
+      <i_max>1</i_max>
+      <i_min>-1</i_min>
+      <cmd_max>100</cmd_max>
+      <cmd_min>-100</cmd_min>
+    </plugin>
+    <plugin
+      filename="ignition-gazebo-joint-position-controller-system"
+      name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>rightside_door3_leftpanel_joint</joint_name>
+      <topic>rightside_door3_leftpanel</topic>
+      <p_gain>40</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>0.01</d_gain>
+      <i_max>1</i_max>
+      <i_min>-1</i_min>
+      <cmd_max>100</cmd_max>
+      <cmd_min>-100</cmd_min>
+    </plugin>
+
+    <plugin
+      filename="ignition-gazebo-joint-position-controller-system"
+      name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>rightside_door4_rightpanel_joint</joint_name>
+      <topic>rightside_door4_rightpanel</topic>
+      <p_gain>40</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>0.01</d_gain>
+      <i_max>1</i_max>
+      <i_min>-1</i_min>
+      <cmd_max>100</cmd_max>
+      <cmd_min>-100</cmd_min>
+    </plugin>
+    <plugin
+      filename="ignition-gazebo-joint-position-controller-system"
+      name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>rightside_door4_leftpanel_joint</joint_name>
+      <topic>rightside_door4_leftpanel</topic>
+      <p_gain>40</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>0.01</d_gain>
+      <i_max>1</i_max>
+      <i_min>-1</i_min>
+      <cmd_max>100</cmd_max>
+      <cmd_min>-100</cmd_min>
+    </plugin>
+
+
+
+    <plugin
+      filename="ignition-gazebo-joint-position-controller-system"
+      name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>leftside_door1_rightpanel_joint</joint_name>
+      <topic>leftside_door1_rightpanel</topic>
+      <p_gain>40</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>0.01</d_gain>
+      <i_max>1</i_max>
+      <i_min>-1</i_min>
+      <cmd_max>100</cmd_max>
+      <cmd_min>-100</cmd_min>
+    </plugin>
+    <plugin
+      filename="ignition-gazebo-joint-position-controller-system"
+      name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>leftside_door1_leftpanel_joint</joint_name>
+      <topic>leftside_door1_leftpanel</topic>
+      <p_gain>40</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>0.01</d_gain>
+      <i_max>1</i_max>
+      <i_min>-1</i_min>
+      <cmd_max>100</cmd_max>
+      <cmd_min>-100</cmd_min>
+    </plugin>
+
+    <plugin
+      filename="ignition-gazebo-joint-position-controller-system"
+      name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>leftside_door2_rightpanel_joint</joint_name>
+      <topic>leftside_door2_rightpanel</topic>
+      <p_gain>40</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>0.01</d_gain>
+      <i_max>1</i_max>
+      <i_min>-1</i_min>
+      <cmd_max>100</cmd_max>
+      <cmd_min>-100</cmd_min>
+    </plugin>
+    <plugin
+      filename="ignition-gazebo-joint-position-controller-system"
+      name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>leftside_door2_leftpanel_joint</joint_name>
+      <topic>leftside_door2_leftpanel</topic>
+      <p_gain>40</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>0.01</d_gain>
+      <i_max>1</i_max>
+      <i_min>-1</i_min>
+      <cmd_max>100</cmd_max>
+      <cmd_min>-100</cmd_min>
+    </plugin>
+
+    <plugin
+      filename="ignition-gazebo-joint-position-controller-system"
+      name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>leftside_door3_rightpanel_joint</joint_name>
+      <topic>leftside_door3_rightpanel</topic>
+      <p_gain>40</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>0.01</d_gain>
+      <i_max>1</i_max>
+      <i_min>-1</i_min>
+      <cmd_max>100</cmd_max>
+      <cmd_min>-100</cmd_min>
+    </plugin>
+    <plugin
+      filename="ignition-gazebo-joint-position-controller-system"
+      name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>leftside_door3_leftpanel_joint</joint_name>
+      <topic>leftside_door3_leftpanel</topic>
+      <p_gain>40</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>0.01</d_gain>
+      <i_max>1</i_max>
+      <i_min>-1</i_min>
+      <cmd_max>100</cmd_max>
+      <cmd_min>-100</cmd_min>
+    </plugin>
+
+    <plugin
+      filename="ignition-gazebo-joint-position-controller-system"
+      name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>leftside_door4_rightpanel_joint</joint_name>
+      <topic>leftside_door4_rightpanel</topic>
+      <p_gain>40</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>0.01</d_gain>
+      <i_max>1</i_max>
+      <i_min>-1</i_min>
+      <cmd_max>100</cmd_max>
+      <cmd_min>-100</cmd_min>
+    </plugin>
+    <plugin
+      filename="ignition-gazebo-joint-position-controller-system"
+      name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>leftside_door4_leftpanel_joint</joint_name>
+      <topic>leftside_door4_leftpanel</topic>
+      <p_gain>40</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>0.01</d_gain>
+      <i_max>1</i_max>
+      <i_min>-1</i_min>
+      <cmd_max>100</cmd_max>
+      <cmd_min>-100</cmd_min>
+    </plugin>
+
+</model>
+</sdf>

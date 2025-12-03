@@ -1,0 +1,14 @@
+
+material UrbanTile/Lionfish_Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture Lionfish_Albedo.png
+        }
+      }
+    }
+  }

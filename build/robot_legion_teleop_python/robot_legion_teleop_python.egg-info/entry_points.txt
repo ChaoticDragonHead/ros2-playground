@@ -1,0 +1,2 @@
+[console_scripts]
+legion_teleop_key = robot_legion_teleop_python.teleop_legion_key:main
