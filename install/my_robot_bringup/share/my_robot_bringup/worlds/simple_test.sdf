@@ -46,13 +46,13 @@
         <pose>0 0 0 0 0 0</pose>
         <collision name = "col">
             <geometry>
-                <box><size>5 5 .5</size></box>
+                <box><size>8 8 .5</size></box>
             </geometry>
         </collision>
 
         <visual name="vis">
             <geometry>
-                <box><size>5 5 .5</size></box>
+                <box><size>8 8 .5</size></box>
             </geometry>
 
              <material>
@@ -70,23 +70,122 @@
       </link>
     </model>
 
-    <!-- <model name="base_platform">
+    <!--Driving platform-->
+    <model name="driving platform">
       <static>true</static>
-      <link name="link_platform">
-        <pose>0 0 0 0 0 0</pose>
-        <visual name="vis">
-          <geometry>
-            <box><size>5 5 .5</size></box>
-          </geometry>
-        </visual>
-
+      <link name="link_base_driving_platform">
+        <pose>-4 -8 0 0 0 0</pose>
         <collision name="col">
           <geometry>
-            <box><size>5 5 .5</size></box>
+            <box><size>16 8 .5</size></box>
           </geometry>
         </collision>
+
+        <visual name="vis">
+            <geometry>
+                <box><size>16 8 .5</size></box>
+            </geometry>
+
+             <material>
+                <ambient>0.35 0.35 0.35 1</ambient>
+                <diffuse>0.45 0.45 0.45 1</diffuse>
+                <pbr>
+                <metal>
+                    <albedo_map>model://textures/wood_textures/wood_texture_seamless_1x5.jpg</albedo_map>
+                    <roughness>0.9</roughness>
+                    <metalness>0.0</metalness>
+                </metal>
+                </pbr>
+          </material>
+        </visual>
       </link>
-    </model> -->
+
+      <link name="link_driving_marker">
+        <pose>-4 -3 .5 0 0 0</pose>
+        <collision name="col">
+          <geometry>
+            <box><size>.5 2 .5</size></box>
+          </geometry>
+        </collision>
+
+        <visual name="vis">
+            <geometry>
+                <box><size>.5 2 .5</size></box>
+            </geometry>
+
+             <material>
+                <ambient>0.35 0.35 0.35 1</ambient>
+                <diffuse>0.45 0.45 0.45 1</diffuse>
+                <pbr>
+                <metal>
+                    <albedo_map>model://textures/stone_textures/stone_wall_seamless_2x1.jpg</albedo_map>
+                    <roughness>0.9</roughness>
+                    <metalness>0.0</metalness>
+                </metal>
+                </pbr>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!--Rampy-->
+
+    <model name="roll_ramp">
+      <static>true</static>
+      <link name="link_access_platform">
+        <pose>4.5 -4 0 0 0 0</pose>
+        <collision name="col">
+          <geometry>
+            <box><size>1 2 .5</size></box>
+          </geometry>
+        </collision>
+
+        <visual name="vis">
+            <geometry>
+                <box><size>1 2 .5</size></box>
+            </geometry>
+
+             <material>
+                <ambient>0.35 0.35 0.35 1</ambient>
+                <diffuse>0.45 0.45 0.45 1</diffuse>
+                <pbr>
+                <metal>
+                    <albedo_map>model://textures/wood_textures/wood_texture_seamless_1x5.jpg</albedo_map>
+                    <roughness>0.9</roughness>
+                    <metalness>0.0</metalness>
+                </metal>
+                </pbr>
+          </material>
+        </visual>
+      </link>
+
+      <link name="link_up_ramp">
+        <pose>4.5 -5 .5 -0.785 0 0</pose>
+        <collision name="col">
+          <geometry>
+            <box><size>1 4 .5</size></box>
+          </geometry>
+        </collision>
+
+        <visual name="vis">
+            <geometry>
+                <box><size>1 4 .5</size></box>
+            </geometry>
+
+             <material>
+                <ambient>0.35 0.35 0.35 1</ambient>
+                <diffuse>0.45 0.45 0.45 1</diffuse>
+                <pbr>
+                <metal>
+                    <albedo_map>model://textures/stone_textures/stone_wall_seamless_2x1.jpg</albedo_map>
+                    <roughness>0.9</roughness>
+                    <metalness>0.0</metalness>
+                </metal>
+                </pbr>
+          </material>
+        </visual>
+      </link> 
+    </model>
 
         <!--     ____   _____ ______          _   _   -->
     <!--    / __ \ / ____|  ____|   /\   | \ | |  -->

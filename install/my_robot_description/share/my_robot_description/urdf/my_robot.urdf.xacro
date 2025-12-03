@@ -56,7 +56,8 @@
     </link>
 
     <!--My first item that I add-->
-    <link name="drill_cone_link">
+    <!-- Drill does not need to be in the file until I can get the mesh import working -->
+    <!-- <link name="drill_cone_link">
         <visual>
             <geometry>
                 <mesh filename="package://my_robot_description/meshes/cone(blender).stl" scale="1 1 1"/>
@@ -72,7 +73,7 @@
             <origin xyz = "0 0 0" rpy="0 ${pi/2} 0" />
         </collision>
         <xacro:cylinder_inertia m="1.0" r="${wheel_radius}" l="${base_length}" o_xyz="0 0 0" o_rpy="0 ${pi/2} 0" />
-    </link>
+    </link> -->
 
     <link name="right_wheel_link">
         <visual>
@@ -128,7 +129,8 @@
     <!--<xacro:include filename="$(find my_robot_description)/urdf/pusharm.urdf.xacro">
     <link name="arm1_link" />-->
 
-        <link name="pusher_arm_link">
+<!--Pushers below, commented out for testing-->
+        <!-- <link name="pusher_arm_link">
         <visual>
             <geometry>
                 <cylinder radius="${pusher_arm_radius}" length="${pusher_arm_length}" />
@@ -180,7 +182,7 @@
             <origin xyz="0 0 ${pusher_height/2}" rpy="0 0 0" />
         </collision>
         <xacro:box_inertia m="2.0" x="${pusher_length}" y="${pusher_width}" z="${pusher_height}" o_xyz="0 0 ${pusher_height/2}" o_rpy="0 0 0" />
-    </link>
+    </link> -->
 
 
     <!--Joints here-->
@@ -193,12 +195,13 @@
     </joint>
 
     <!--My first joint, attaching drill to chassis-->
-    <joint name="base_drill_cone_joint" type="continuous">
+    <!--Drill commented out-->
+    <!-- <joint name="base_drill_cone_joint" type="continuous">
         <parent link="base_link" />
         <child link="drill_cone_link" />
         <origin xyz="${base_length} 0 ${wheel_radius}" rpy="0 0 0" />
         <axis xyz="1 0 0" />
-    </joint>
+    </joint> -->
 
     <joint name="base_right_wheel_joint" type="continuous">
         <parent link="base_link" />
@@ -226,7 +229,8 @@
         <origin xyz="${base_length/2} ${base_width/2 + pusher_arm_radius} 0" rpy="0 0 0" />
     </joint>-->
 
-    <joint name="left_pusher_pusher_arm_joint" type="fixed">
+<!--Pusher joints, removed for testing-->
+    <!-- <joint name="left_pusher_pusher_arm_joint" type="fixed">
         <parent link="pusher_arm_link" />
         <child link="left_pusher_link" />
         <origin xyz="0 0 ${-pusher_arm_length+pusher_height}" rpy="0 0 0" />
@@ -243,6 +247,6 @@
         <child link="pusher_arm_link" />
         <origin xyz="0 0 ${pusher_length/2 + base_height}" rpy="0 -1.571 1.571" />
         <axis xyz="0 0 1" />
-        <limit lower="${-pusher_arm_length}" upper="${pusher_arm_length}" effort="20" velocity="0.5" />
-    </joint>
+        <limit lower="${-pusher_arm_length}" upper="${pusher_arm_length}" effort="20" velocity="0.0" />
+    </joint> -->
 </robot>
