@@ -131,7 +131,7 @@ source install/setup.bash
 ```
 ### 2. Run the launch file that opens our Gazebo world and spawns our robot within:
 ```shell
-ros2 launch my_robot_bringup my_robot.launch.xml
+ros2 launch my_robot_bringup my_robot_gazebo.launch.xml
 ```
 **Note**: This command will run a **launch file** called my_robot.urdf.xacro which sould already be in your repository.
 
